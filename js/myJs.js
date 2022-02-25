@@ -31,6 +31,7 @@ $(document).ready(function () {
   $("#yes").html(textConfig.text6);
 
   function firstQuestion() {
+    playSound()
     $(".content").hide();
     Swal.fire({
       title: textConfig.text1,
@@ -45,6 +46,20 @@ $(document).ready(function () {
     }).then(function () {
       $(".content").show(210);
     });
+  }
+
+  function playSound() {
+    var audio = new Audio("sound/sound.mp3");
+      audio.play();
+    if (typeof audio.loop == 'boolean') {
+      audio.loop = true;
+    }
+    else {
+      audio.addEventListener('ended', function () {
+        this.currentTime = 0;
+        this.play();
+      }, false);
+    }
   }
 
   // switch button position
