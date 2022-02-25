@@ -1,6 +1,6 @@
 const textConfig = {
-  text1: "Helu ngố",
-  text2: "Mình có điều này muốn hỏi, cần cậu trả lời thật lòng",
+  text1: "Caution: This site may contains cheesy content",
+  text2: "Helu Ngố, mình có điều này muốn hỏi, cần cậu trả lời thật lòng",
   text3: "Cậu có nhớ mình không?",
   text4: "Nếu không trả lời mà thoát ra thì mặc định là nhớ đó",
   text5: "Không",
@@ -36,11 +36,11 @@ $(document).ready(function () {
       title: textConfig.text1,
       text: textConfig.text2,
       imageUrl: "img/main_pic.jpeg",
-      imageWidth: 200,
-      background: '#fff url("img/iput-bg.jpg")',
+      imageWidth: 210,
+      background: 'url("img/input-bg.jpeg")',
       imageAlt: "Custom image",
     }).then(function () {
-      $(".content").show(200);
+      $(".content").show(210);
     });
   }
 
