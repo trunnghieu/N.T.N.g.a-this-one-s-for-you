@@ -55,7 +55,10 @@
         </button>
       </div>
     </div>
-    <iframe src="./sound/sound.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+    <iframe src="./sound/sound.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="player" preload="auto" autoplay loop>
+      <source src="./sound/sound.mp3" type="audio/mp3">
+    </audio>
     <!-- <audio controls hidden loop autoplay src="./sound/sound.mp3"></audio> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
