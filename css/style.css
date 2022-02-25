@@ -85,11 +85,15 @@ header h4 {
 }
 
 .swal-image-yes {
-  background-size: cover !important;
-  background-position-y: -10px !important;
+  background-size: 20% !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom right !important;
+  background-position-y: 5px !important;
 }
-
+/* 
 .swal-image-result {
-  background-size: cover !important;
-  background-position-y: -30px !important;
-}
+  background-size: 20% !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom right !important;
+  background-position-y: 5px !important;
+} */

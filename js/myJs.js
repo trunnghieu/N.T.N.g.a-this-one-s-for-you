@@ -128,11 +128,12 @@ $(document).ready(function () {
     // audio.play();
     Swal.fire({
       title: textConfig.text7,
-      html: true,
+      // html: true,
+      input: 'text',
       width: 900,
       padding: "2em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder=' '>",
-      background: 'url("img/puuung_landscape.png")',
+      // html: "<input type='text' class='form-control' style='height:100px' id='txtReason'  placeholder=' '>",
+      background: '#F8F8F8 url("img/puuung_landscape.png")',
       // backdrop: `
       //               rgba(0,0,123,0.4)
       //               url("img/giphy2.gif")
@@ -148,14 +149,14 @@ $(document).ready(function () {
       customClass: "swal-image-yes",
     }).then((result) => {
       if (result.value) {
+        console.log(result.value);
         Swal.fire({
           width: 1200,
           confirmButtonText: textConfig.text12,
-          background: 'url("img/puuung_landscape.png")',
+          background: '#F8F8F8',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
-          customClass: "swal-image-result",
           onClose: () => {
             window.location = "https://www.facebook.com/hieeu1.7/";
           },
