@@ -32,7 +32,7 @@
   -webkit-filter: blur(4px);
 }
 .swal2-title, .swal2-content{
-  color: rgb(211, 130, 38) !important;
+  color: #666666 !important;
   font-family: monospace;
 }
 
@@ -83,6 +83,7 @@ header h4 {
     -webkit-transition: all 0.3s ease-out;
   }
   .swal-image {
-    position: relative;
+    background-size: cover;
+    background-position-y: -110px;
   }
 }

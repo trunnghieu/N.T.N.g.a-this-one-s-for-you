@@ -113,7 +113,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "2em",
-      html: "<input type='text' class='form-control swal-image' id='txtReason'  placeholder=' '>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder=' '>",
       background: 'url("img/puuung_landscape.png")',
       // backdrop: `
       //               rgba(0,0,123,0.4)
