@@ -1,5 +1,5 @@
 const textConfig = {
-  text1: "Caution: This site may contains cheesy content",
+  text1: "CAUTION: This site may contains cheesy content",
   text2: "Helu Ngố, mình có điều này muốn hỏi, cần cậu trả lời thật lòng",
   text3: "Cậu có nhớ mình không?",
   text4: "Nếu không trả lời mà thoát ra thì mặc định là nhớ đó",
@@ -34,9 +34,9 @@ $(document).ready(function () {
     $(".content").hide();
     Swal.fire({
       title: textConfig.text1,
-      text: textConfig.text2,
+      // text: textConfig.text2,
       imageUrl: "img/main_pic.jpeg",
-      imageWidth: 210,
+      imageWidth: 215,
       background: 'url("img/input-bg.jpeg")',
       imageAlt: "Custom image",
     }).then(function () {
@@ -112,9 +112,9 @@ $(document).ready(function () {
       title: textConfig.text7,
       html: true,
       width: 900,
-      padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder=' '>",
-      background: '#fff url("img/iput-bg.jpg")',
+      padding: "2em",
+      html: "<input type='text' class='form-control swal-image' id='txtReason'  placeholder=' '>",
+      background: 'url("img/puuung_landscape.png")',
       // backdrop: `
       //               rgba(0,0,123,0.4)
       //               url("img/giphy2.gif")
@@ -132,7 +132,7 @@ $(document).ready(function () {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
-          background: '#fff url("img/iput-bg.jpg")',
+          background: 'url("img/puuung_landscape.png")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
