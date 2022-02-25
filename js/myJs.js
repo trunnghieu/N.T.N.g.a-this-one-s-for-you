@@ -130,17 +130,17 @@ $(document).ready(function () {
       confirmButtonColor: "#fe8a71",
       cancelButtonColor: "#f6cd61",
       confirmButtonText: textConfig.text8,
-      customClass: "swal-image",
+      customClass: "swal-image-yes",
     }).then((result) => {
       if (result.value) {
         Swal.fire({
-          width: 900,
+          width: 1200,
           confirmButtonText: textConfig.text12,
           background: 'url("img/puuung_landscape.png")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
-          customClass: "swal-image",
+          customClass: "swal-image-result",
           onClose: () => {
             window.location = "https://www.facebook.com/hieeu1.7/";
           },

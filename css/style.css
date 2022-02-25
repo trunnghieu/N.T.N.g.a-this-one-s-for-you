@@ -84,7 +84,12 @@ header h4 {
   }
 }
 
-.swal-image {
+.swal-image-yes {
   background-size: cover !important;
   background-position-y: -10px !important;
+}
+
+.swal-image-result {
+  background-size: cover !important;
+  background-position-y: -30px !important;
 }
