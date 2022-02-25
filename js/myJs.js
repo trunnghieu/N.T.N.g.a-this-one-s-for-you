@@ -37,6 +37,9 @@ $(document).ready(function () {
       // text: textConfig.text2,
       imageUrl: "img/main_pic.jpeg",
       imageWidth: 215,
+      showCancelButton: false,
+      confirmButtonColor: "#fe8a71",
+      confirmButtonText: "Continue",
       background: 'url("img/input-bg.jpeg")',
       imageAlt: "Custom image",
     }).then(function () {
