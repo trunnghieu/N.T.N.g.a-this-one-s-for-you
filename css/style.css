@@ -82,8 +82,9 @@ header h4 {
     padding: 3px;
     -webkit-transition: all 0.3s ease-out;
   }
-  .swal-image {
-    background-size: cover;
-    background-position-y: -110px;
-  }
+}
+
+.swal-image {
+  background-size: cover !important;
+  background-position-y: -10px !important;
 }

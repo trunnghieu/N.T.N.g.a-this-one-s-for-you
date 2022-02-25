@@ -41,7 +41,7 @@ $(document).ready(function () {
       confirmButtonColor: "#fe8a71",
       confirmButtonText: "Continue",
       background: 'url("img/input-bg.jpeg")',
-      imageAlt: "Custom image",
+      imageAlt: "Custom image"
     }).then(function () {
       $(".content").show(210);
     });
@@ -130,6 +130,7 @@ $(document).ready(function () {
       confirmButtonColor: "#fe8a71",
       cancelButtonColor: "#f6cd61",
       confirmButtonText: textConfig.text8,
+      customClass: "swal-image",
     }).then((result) => {
       if (result.value) {
         Swal.fire({
@@ -139,6 +140,7 @@ $(document).ready(function () {
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
+          customClass: "swal-image",
           onClose: () => {
             window.location = "https://www.facebook.com/hieeu1.7/";
           },
