@@ -31,7 +31,6 @@ $(document).ready(function () {
   $("#yes").html(textConfig.text6);
 
   function firstQuestion() {
-    playSound()
     $(".content").hide();
     Swal.fire({
       title: textConfig.text1,
@@ -45,6 +44,7 @@ $(document).ready(function () {
       imageAlt: "Custom image"
     }).then(function () {
       $(".content").show(210);
+      playSound();
     });
   }
 
