@@ -1,3 +1,25 @@
+// Import Firebase
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+const firebaseConfig = {
+  apiKey: "AIzaSyA5lD4snqKI4sWCEGtmbWoIUkJ_pdRx54g",
+  authDomain: "icanbeyourdeer.firebaseapp.com",
+  projectId: "icanbeyourdeer",
+  storageBucket: "icanbeyourdeer.appspot.com",
+  messagingSenderId: "282458903243",
+  appId: "1:282458903243:web:e2c47500f438210fe4014e",
+  measurementId: "G-LMJZXNSMR5"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+
+
+
+
+// Main
 const textConfig = {
   text1: "CAUTION: This site may contains cheesy content",
   text2: "Helu Ngố, mình có điều này muốn hỏi, cần cậu trả lời thật lòng",
