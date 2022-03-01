@@ -34,10 +34,10 @@ const textConfig = {
   text7: "Tâm sự gì thì bỏ vào đây nhé",
   text8: "Gửi",
   text9: "Nothing",
-  text10: "Title",
+  text10: "Đôi lời nhắn nhủ",
   text11:
-    "Content content content",
-  text12: "End",
+    'Mình biết bạn là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn rằng dù thế nào đi nữa, mình cũng sẽ không để bạn một mình. Vì đã 3 năm tự cách ly với gái, văn chương không giỏi, gần đây lại còn ngốc nghếch, nên bản thân cũng muốn cảm ơn bạn đã đồng hành đến cửa ải sến súa cuối cùng này. Song mình đã để cảnh báo từ đầu nên nếu có ý kiến gì về vấn đề này vui lòng ngậm miệng lại và tự giữ cho bản thân, mình cũng biết quê, thế nhé. Wo hui yizhi zai zheli.',
+  text12: "Hoàn thành",
 };
 
 $(document).ready(function () {
@@ -178,7 +178,7 @@ $(document).ready(function () {
       if (result.value) {
         writePost(result.value, (new Date()).getTime());
         Swal.fire({
-          width: 1200,
+          width: '90%',
           confirmButtonText: textConfig.text12,
           background: '#F8F8F8',
           title: textConfig.text10,
