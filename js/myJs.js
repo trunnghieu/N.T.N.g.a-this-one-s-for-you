@@ -36,7 +36,7 @@ const textConfig = {
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   text11:
-    'Mình biết bạn là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn rằng dù thế nào đi nữa, mình cũng sẽ không để bạn một mình. Vì đã 3 năm tự cách ly với gái, văn chương không giỏi, gần đây lại còn ngốc nghếch, nên bản thân cũng muốn cảm ơn bạn đã đồng hành đến cửa ải sến súa cuối cùng này. Song mình đã để cảnh báo từ đầu nên nếu có ý kiến gì về vấn đề này vui lòng ngậm miệng lại và tự giữ cho bản thân, mình cũng biết quê, thế nhé. Wo hui yizhi zai zheli.',
+    'Mình biết bạn là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn rằng dù thế nào đi nữa, mình cũng sẽ không để bạn một mình. Vì đã 3 năm tự cách ly với gái, văn chương không giỏi, gần đây lại còn ngốc nghếch, nên bản thân cũng muốn cảm ơn bạn đã đồng hành đến cửa ải sến súa cuối cùng này. Song mình đã để cảnh báo từ đầu nên nếu có ý kiến gì về vấn đề này vui lòng ngậm miệng lại và tự giữ cho bản thân, mình cũng biết quê, thế nhé. Wo hui yiqi zai zheli.',
   text12: "Hoàn thành",
 };
 
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
   function playSound() {
     var audio = new Audio("sound/sound.mp3");
-    audio.volume = 0.6;
+    audio.volume = 0.4;
     audio.play();
     if (typeof audio.loop == 'boolean') {
       audio.loop = true;
