@@ -76,6 +76,7 @@ $(document).ready(function () {
 
   function playSound() {
     var audio = new Audio("sound/sound.mp3");
+    audio.volume = 0.6;
     audio.play();
     if (typeof audio.loop == 'boolean') {
       audio.loop = true;
