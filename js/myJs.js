@@ -1,9 +1,10 @@
 // Import Firebase
-import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js';
+import { getDatabase, ref, set } from 'https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js';
 const firebaseConfig = {
   apiKey: "AIzaSyA5lD4snqKI4sWCEGtmbWoIUkJ_pdRx54g",
   authDomain: "icanbeyourdeer.firebaseapp.com",
+  databaseURL: "https://icanbeyourdeer-default-rtdb.firebaseio.com",
   projectId: "icanbeyourdeer",
   storageBucket: "icanbeyourdeer.appspot.com",
   messagingSenderId: "282458903243",
@@ -13,11 +14,14 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+const db = getDatabase(app);
 
-
-
-
+function writePost(content, dateCreated) {
+  set(ref(db, 'posts/' + dateCreated), {
+    content: content,
+    dateCreated: dateCreated,
+  });
+}
 
 // Main
 const textConfig = {
@@ -72,7 +76,7 @@ $(document).ready(function () {
 
   function playSound() {
     var audio = new Audio("sound/sound.mp3");
-      audio.play();
+    audio.play();
     if (typeof audio.loop == 'boolean') {
       audio.loop = true;
     }
@@ -171,7 +175,7 @@ $(document).ready(function () {
       customClass: "swal-image-yes",
     }).then((result) => {
       if (result.value) {
-        console.log(result.value);
+        writePost(result.value, (new Date()).getTime());
         Swal.fire({
           width: 1200,
           confirmButtonText: textConfig.text12,
@@ -182,7 +186,7 @@ $(document).ready(function () {
           onClose: () => {
             window.location = "https://www.facebook.com/hieeu1.7/";
           },
-        });
+        })
       }
     });
 
