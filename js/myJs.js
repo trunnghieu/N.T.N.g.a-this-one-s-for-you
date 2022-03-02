@@ -12,7 +12,7 @@ const firebaseConfig = {
   measurementId: "G-LMJZXNSMR5"
 };
 
-// Initialize Firebase
+// Firebase
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
@@ -20,6 +20,12 @@ function writePost(content, dateCreated) {
   set(ref(db, 'posts/' + dateCreated), {
     content: content,
     dateCreated: dateCreated,
+  });
+}
+
+function writeVisitTime(dateTime) {
+  set(ref(db, 'visits/' + dateTime), {
+    dateTime: dateTime
   });
 }
 
@@ -71,6 +77,7 @@ $(document).ready(function () {
     }).then(function () {
       $(".content").show(210);
       playSound();
+      writeVisitTime((new Date()).getTime());
     });
   }
 
