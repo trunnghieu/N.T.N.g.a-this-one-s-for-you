@@ -25,8 +25,18 @@ function writePost(content, dateCreated) {
 
 function writeVisitTime(dateTime) {
   set(ref(db, 'visits/' + dateTime), {
-    dateTime: dateTime
+    dateTime: getTime()
   });
+}
+
+function getTime() {
+  var m = new Date();
+  return m.getUTCFullYear() + "/" +
+  ("0" + (m.getUTCMonth()+1)).slice(-2) + "/" +
+  ("0" + m.getUTCDate()).slice(-2) + " " +
+  ("0" + m.getUTCHours()).slice(-2) + ":" +
+  ("0" + m.getUTCMinutes()).slice(-2) + ":" +
+  ("0" + m.getUTCSeconds()).slice(-2);
 }
 
 // Main
