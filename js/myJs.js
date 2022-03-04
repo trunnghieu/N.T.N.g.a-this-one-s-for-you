@@ -92,7 +92,7 @@ $(document).ready(function () {
   }
 
   function playSound() {
-    var audio = new Audio("sound/sound.mp3");
+    var audio = new Audio("sound/tiny_light.mp3");
     audio.volume = 0.4;
     audio.play();
     if (typeof audio.loop == 'boolean') {
