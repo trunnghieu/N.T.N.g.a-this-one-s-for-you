@@ -26,10 +26,10 @@
   /* height: 100vh; */
   z-index: 0;
   background-repeat: no-repeat;
-  background-image: url(../img/puuung_bg.gif);
+  background-image: url(../img/puuung-bg-texting.gif);
   background-size: cover;
   background-position: 50%;
-  -webkit-filter: blur(4px);
+  /* -webkit-filter: blur(2px); */
 }
 .swal2-title, .swal2-content{
   color: #080808 !important;
