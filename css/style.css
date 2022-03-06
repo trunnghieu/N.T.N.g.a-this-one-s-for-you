@@ -32,8 +32,12 @@
   -webkit-filter: blur(4px);
 }
 .swal2-title, .swal2-content{
-  color: #666666 !important;
+  color: #080808 !important;
   font-family: monospace;
+}
+
+.swal2-title {
+  font-size: 24px !important;
 }
 
 .swal2-popup {

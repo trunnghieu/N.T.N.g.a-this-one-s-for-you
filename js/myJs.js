@@ -41,7 +41,7 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "CAUTION: This site may contains cheesy content",
+  text1: "Somewhere in the world, someone is missing you. And you know who that person is.",
   text2: "Helu Ngố, mình có điều này muốn hỏi, cần cậu trả lời thật lòng",
   text3: "Cậu có nhớ mình không?",
   text4: "Nếu không trả lời mà thoát ra thì mặc định là nhớ đó",
@@ -78,14 +78,14 @@ $(document).ready(function () {
       title: textConfig.text1,
       // text: textConfig.text2,
       imageUrl: "img/main_pic.jpeg",
-      imageWidth: 215,
+      imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
       confirmButtonText: "Continue",
       background: 'url("img/input-bg.jpeg")',
       imageAlt: "Custom image"
     }).then(function () {
-      $(".content").show(210);
+      $(".content").show(350);
       playSound();
       writeVisitTime((new Date()).getTime());
     });
