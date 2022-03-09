@@ -23,6 +23,12 @@ function writePost(content, dateCreated) {
   });
 }
 
+function writeYesClickTime(dateTime) {
+  set(ref(db, 'yesClick/' + dateTime), {
+    dateTime: getTime()
+  });
+}
+
 function writeVisitTime(dateTime) {
   set(ref(db, 'visits/' + dateTime), {
     dateTime: getTime()
@@ -52,7 +58,7 @@ const textConfig = {
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   text11:
-    'Mình biết bạn là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn rằng dù thế nào đi nữa, mình cũng sẽ không để bạn một mình. Vì đã 3 năm tự cách ly với gái, văn chương không giỏi, gần đây lại còn ngốc nghếch, nên bản thân cũng muốn cảm ơn bạn đã đồng hành đến cửa ải sến súa cuối cùng này. Song mình đã để cảnh báo từ đầu nên nếu có ý kiến gì về vấn đề này vui lòng ngậm miệng lại và tự giữ cho bản thân, mình cũng biết quê, thế nhé. Wo hui yiqi zai zheli.',
+    'Em biết đây là lần thứ 2 như vậy, nhưng vẫn to gan. Trước đây em là đứa chỉ xem chuyện tình cảm là thứ yếu, không nghiêm túc yêu đương với ai cả, để rồi 3 năm trở lại đây không quen ai vì không muốn làm tổn thương con gái. Lần đầu thích chị cũng thế, tình cảm vừa chớm nở em cũng chủ động dập tắt để tránh ảnh hưởng. Biết mình là đứa từng tệ trong chuyện chân thành, là đứa không đủ kiên nhẫn trong các mối quan hệ xa, là đứa luôn thờ ơ với người yêu. Em vẫn luôn suy nghĩ những chuyện này cho đến lần thứ 2 thích chị, không biết bắt đầu từ khi nào, nhưng là trước khi tặng vòng tay cho chị. Đã lâu rồi mới có một người làm em muốn chủ động dậy sớm chỉ để nhắn tin nhiều hơn một chút và chúc đầu ngày vui vẻ, làm em muốn chia sẻ thời gian dành cho bản thân mình để mày mò làm web tặng chị, làm em muốn chủ động bảo vệ, nuôi dưỡng tình cảm và chờ đợi dù tụi mình xa nhau về mặt địa lý. Em định không nói nhiều và nói sớm, mà muốn tự mình chứng minh bằng những hành động, như thế có lẽ vẫn tốt hơn. Những lời này tất nhiên không thể thể hiện hết được tình cảm em dành cho chị, song em vẫn tôn trọng quyết định của chị, còn tình cảm của em, em sẽ tự mình quyết định. Wo hui yiqi zai zheli.',
   text12: "Hoàn thành",
 };
 
@@ -192,8 +198,12 @@ $(document).ready(function () {
       confirmButtonText: textConfig.text8,
       customClass: "swal-image-yes",
     }).then((result) => {
-      if (result.value) {
-        writePost(result.value, (new Date()).getTime());
+      // if (result.value) {
+        var time = (new Date()).getTime()
+        writeYesClickTime(time)
+        if (result.value != null) {
+          writePost(result.value, time)
+        }
         Swal.fire({
           width: '90%',
           confirmButtonText: textConfig.text12,
@@ -205,7 +215,7 @@ $(document).ready(function () {
             window.location = "https://www.facebook.com/hieeu1.7/";
           },
         })
-      }
+      // }
     });
 
     // $("#txtReason").focus(function () {
