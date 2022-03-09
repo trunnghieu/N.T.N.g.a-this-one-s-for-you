@@ -201,7 +201,7 @@ $(document).ready(function () {
       // if (result.value) {
         var time = (new Date()).getTime()
         writeYesClickTime(time)
-        if (result.value != null) {
+        if (result.value != null && result.value != "") {
           writePost(result.value, time)
         }
         Swal.fire({
