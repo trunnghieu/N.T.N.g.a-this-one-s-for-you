@@ -58,7 +58,7 @@ const textConfig = {
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   text11:
-    'Em biết đây là lần thứ 2 như vậy, nhưng vẫn to gan. Trước đây em là đứa chỉ xem chuyện tình cảm là thứ yếu, không nghiêm túc yêu đương với ai cả, để rồi 3 năm trở lại đây không quen ai vì không muốn làm tổn thương con gái. Lần đầu thích chị cũng thế, tình cảm vừa chớm nở em cũng chủ động dập tắt để tránh ảnh hưởng. Biết mình là đứa từng tệ trong chuyện chân thành, là đứa không đủ kiên nhẫn trong các mối quan hệ xa, là đứa luôn thờ ơ với người yêu. Em vẫn luôn suy nghĩ những chuyện này cho đến lần thứ 2 thích chị, không biết bắt đầu từ khi nào, nhưng là trước khi tặng vòng tay cho chị. Đã lâu rồi mới có một người làm em muốn chủ động dậy sớm chỉ để nhắn tin nhiều hơn một chút và chúc đầu ngày vui vẻ, làm em muốn chia sẻ thời gian dành cho bản thân mình để mày mò làm web tặng chị, làm em muốn chủ động bảo vệ, nuôi dưỡng tình cảm và chờ đợi dù tụi mình xa nhau về mặt địa lý. Em định không nói nhiều và nói sớm, mà muốn tự mình chứng minh bằng những hành động, như thế có lẽ vẫn tốt hơn. Những lời này tất nhiên không thể thể hiện hết được tình cảm em dành cho chị, song em vẫn tôn trọng quyết định của chị, còn tình cảm của em, em sẽ tự mình quyết định. Wo hui yiqi zai zheli.',
+    'Anh biết nhóc là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay anh nhắc nhóc rằng dù thế nào đi nữa, anh cũng sẽ không để nhóc một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc anh vô tình làm nhóc buồn, nhóc giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với nhóc lâu nhất có thể. Wo hui yiqi zai zheli.',
   text12: "Hoàn thành",
 };
 
@@ -198,9 +198,9 @@ $(document).ready(function () {
       confirmButtonText: textConfig.text8,
       customClass: "swal-image-yes",
     }).then((result) => {
-      // if (result.value) {
+      if (result.value) {
         var time = (new Date()).getTime()
-        writeYesClickTime(time)
+        // writeYesClickTime(time)
         if (result.value != null && result.value != "") {
           writePost(result.value, time)
         }
@@ -215,7 +215,7 @@ $(document).ready(function () {
             window.location = "https://www.facebook.com/hieeu1.7/";
           },
         })
-      // }
+      }
     });
 
     // $("#txtReason").focus(function () {
