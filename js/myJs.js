@@ -38,17 +38,17 @@ function writeVisitTime(dateTime) {
 function getTime() {
   var m = new Date();
   return m.getUTCFullYear() + "/" +
-  ("0" + (m.getUTCMonth()+1)).slice(-2) + "/" +
-  ("0" + m.getUTCDate()).slice(-2) + " " +
-  ("0" + m.getUTCHours()).slice(-2) + ":" +
-  ("0" + m.getUTCMinutes()).slice(-2) + ":" +
-  ("0" + m.getUTCSeconds()).slice(-2);
+    ("0" + (m.getUTCMonth() + 1)).slice(-2) + "/" +
+    ("0" + m.getUTCDate()).slice(-2) + " " +
+    ("0" + m.getUTCHours()).slice(-2) + ":" +
+    ("0" + m.getUTCMinutes()).slice(-2) + ":" +
+    ("0" + m.getUTCSeconds()).slice(-2);
 }
 
 // Main
 const textConfig = {
   text1: "Somewhere in the world, someone is missing you. And you know who that person is.",
-  text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
+  // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Bạn gái có nhớ mình không?",
   text4: "Nếu không trả lời mà thoát ra thì mặc định là nhớ đó",
   text5: "Không",
@@ -57,8 +57,9 @@ const textConfig = {
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
-  text11:
-    'Mình biết bạn gái là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn gái rằng dù thế nào đi nữa, mình cũng sẽ không để bạn gái một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc mình vô tình làm bạn gái buồn, bạn gái giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với bạn gái lâu nhất có thể. Wo hui yiqi zai zheli.',
+  // text11:
+  // 'Mình biết bạn gái là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn gái rằng dù thế nào đi nữa, mình cũng sẽ không để bạn gái một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc mình vô tình làm bạn gái buồn, bạn gái giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với bạn gái lâu nhất có thể. Wo hui yiqi zai zheli.',
+  text11: 'Helu, chắc bạn không biết, hôm nay là Valentine trắng 14/3, là ngày con trai đáp lễ quà 14/2 của con gái. Nhưng chuyện là mình trót quên mất ngày này nên không chuẩn bị kịp quà online cho bạn, đành phải mua quà rồi chờ ngày bạn về, thôi thì xem như củng cố tình cảm để ngày hai đứa gặp lại ý nghĩa hơn nha. Lúc bạn đọc dòng tin nhắn này, chắc mình đang trên đường đi tìm sách cho bạn, mong là sẽ kịp trước khi bạn buồn ngủ hoặc sang ngày mới. Mười hai năm kịch cố nhân hoặc Cây Olive màu trắng, 2 cuốn khiến bạn lặn lội 20km bất thành, giờ mình sẽ thay phần việc dang dở của bạn. 14/03/2022, chúc cho 2 đứa sẽ đi cùng nhau thật lâu. Wo hui yiqi zai zheli.',
   text12: "Hoàn thành",
 };
 
