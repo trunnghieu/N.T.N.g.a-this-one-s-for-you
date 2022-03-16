@@ -49,8 +49,8 @@ function getTime() {
 const textConfig = {
   text1: "Somewhere in the world, someone is missing you. And you know who that person is.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Bạn gái có nhớ mình không?",
-  text4: "Nếu không trả lời mà thoát ra thì mặc định là nhớ đó",
+  text3: "Bạn gái có muốn đi Đà Lạt với mình không?",
+  text4: "Ảnh gif này minh họa một trong nhiều điều mình muốn dành cho bạn",
   text5: "Không",
   text6: "Có",
   text7: "Tâm sự gì thì bỏ vào đây nhé",
