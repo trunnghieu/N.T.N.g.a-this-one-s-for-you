@@ -49,8 +49,8 @@ function getTime() {
 const textConfig = {
   text1: "Somewhere in the world, someone is missing you. And you know who that person is.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Bạn gái có muốn đi Đà Lạt với mình không?",
-  text4: "Ảnh gif này minh họa một trong nhiều điều mình muốn dành cho bạn",
+  text3: "Bạn gái có muốn đi cùng mình thật lâu không?",
+  text4: "Nếu gặp nhau ở một thời điểm khác trong đời, mình vẫn muốn được quen bạn gái",
   text5: "Không",
   text6: "Có",
   text7: "Tâm sự gì thì bỏ vào đây nhé",
@@ -59,7 +59,7 @@ const textConfig = {
   text10: "Đôi lời nhắn nhủ",
   text11:
     'Mình biết bạn gái là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn gái rằng dù thế nào đi nữa, mình cũng sẽ không để bạn gái một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc mình vô tình làm bạn gái buồn, bạn gái giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với bạn gái lâu nhất có thể. Wo hui yiqi zai zheli.',
-  text12: "Hoàn thành",
+  text12: "Thăm bạn trai",
 };
 
 $(document).ready(function () {
@@ -83,7 +83,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/main_pic.jpeg",
+      imageUrl: "img/main_pic_1.jpeg",
       imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
@@ -98,7 +98,7 @@ $(document).ready(function () {
   }
 
   function playSound() {
-    var audio = new Audio("sound/tiny_light.mp3");
+    var audio = new Audio("sound/music.mp3");
     audio.volume = 0.4;
     audio.play();
     if (typeof audio.loop == 'boolean') {
