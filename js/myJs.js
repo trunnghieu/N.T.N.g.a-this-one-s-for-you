@@ -19,7 +19,7 @@ const db = getDatabase(app);
 function writePost(content, dateCreated) {
   set(ref(db, 'posts/' + dateCreated), {
     content: content,
-    dateCreated: dateCreated,
+    dateCreated: getTime(),
   });
 }
 
