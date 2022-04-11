@@ -16,6 +16,8 @@
     top: 50vh;
     -webkit-transition: all 0.3s ease-out;
   }
+
+/* Class for handling gif image backgrond */
 #bg{
   position: fixed;
   top: 0;
@@ -31,6 +33,17 @@
   background-position: 50%;
   /* -webkit-filter: blur(2px); */
 }
+
+#video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
 .swal2-title, .swal2-content{
   color: #080808 !important;
   font-family: monospace;
