@@ -125,7 +125,7 @@ $(document).ready(function () {
     $("#yes").css("left", leftNo);
     $("#yes").css("top", topNO);
   }
-  // move random button póition
+  // move random button position
   function moveButton() {
     // var audio = new Audio("sound/Swish1.mp3");
     // audio.play();
