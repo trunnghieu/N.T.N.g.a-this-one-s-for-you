@@ -49,8 +49,8 @@ function getTime() {
 const textConfig = {
   text1: "Somewhere in the world, someone is missing you. And you know who that person is.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Bạn gái có muốn đi cùng mình thật lâu không?",
-  text4: "Nếu gặp nhau ở một thời điểm khác trong đời, mình vẫn muốn được quen bạn gái",
+  text3: "Em có muốn đi cùng anh thật lâu không?",
+  text4: "Nếu gặp nhau ở một thời điểm khác trong đời, anh vẫn muốn được quen em",
   text5: "Không",
   text6: "Có",
   text7: "Tâm sự gì thì bỏ vào đây nhé",
@@ -58,7 +58,7 @@ const textConfig = {
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   text11:
-    'Mình biết bạn gái là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay mình nhắc bạn gái rằng dù thế nào đi nữa, mình cũng sẽ không để bạn gái một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc mình vô tình làm bạn gái buồn, bạn gái giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với bạn gái lâu nhất có thể. Wo hui yiqi zai zheli.',
+    'Anh biết em là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay anh nhắc em rằng dù thế nào đi nữa, anh cũng sẽ không để em một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc anh vô tình làm em buồn hay giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với em lâu nhất có thể. Wo hui yiqi zai zheli.',
   text12: "Thăm bạn trai",
 };
 
