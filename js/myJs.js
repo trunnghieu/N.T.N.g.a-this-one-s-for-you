@@ -53,7 +53,7 @@ const textConfig = {
   text4: "Bạn ấy có vài lời nhắn mới, bạn dành thời gian đọc nha.",
   text5: "Không",
   text6: "Có",
-  text7: "Bạn Cún muốn được hiểu bạn hơn, gửi lại ít lời nhắn cho bạn ấy nha",
+  text7: "Gửi cho bạn ấy vài lời nhắn ở đây",
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
