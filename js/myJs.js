@@ -47,20 +47,20 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Somewhere in the world, someone is missing you. And you know who that person is.",
+  text1: "Cả một đời, việc làm bạn Cún không hối tiếc là quen bạn.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Em có muốn đi cùng anh thật lâu không?",
-  text4: "Nếu gặp nhau ở một thời điểm khác trong đời, anh vẫn muốn được quen em",
+  text3: "Bạn ở lại cùng bạn Cún nha?",
+  text4: "Bạn ấy có vài lời nhắn mới, bạn dành thời gian đọc nha.",
   text5: "Không",
   text6: "Có",
-  text7: "Tâm sự gì thì bỏ vào đây nhé",
+  text7: "Bạn Cún muốn được hiểu bạn hơn, gửi lại ít lời nhắn cho bạn ấy nha",
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
-  text11:
-  // 'Anh biết em là một người mạnh mẽ, song không ai tránh được những thời điểm khó khăn. Những lúc như thế trang web này sẽ thay anh nhắc em rằng dù thế nào đi nữa, anh cũng sẽ không để em một mình. Hai đứa chính thức quen nhau, đi kèm niềm vui tất nhiên sẽ có lúc anh vô tình làm em buồn hay giận. Chỉ mong rằng những lúc khó khăn như thế, hai đứa vẫn đủ kiên nhẫn để cùng nhau bước qua. Hi vọng sẽ được đồng hành với em lâu nhất có thể. Wo hui yiqi zai zheli.'
-  'Hello, muốn làm cho chị một ít niềm vui những lúc tâm trạng chị không được tốt. Trước khi quen nhau đã từng thấy chị mạnh mẽ hơn những người con gái em từng biết, dẫu vậy em vẫn muốn được che chở cho bạn gái mình. Em biết chuỗi ngày vừa qua không phải là khoảng thời gian thảnh thơi của chị, trời đêm 8 độ ở Melbourne cũng có thể khiến chị thấy cô đơn hơn. Vì thế em ở đây để nhắc nhở chị rằng có một người luôn sẵn sàng ở cạnh chị những lúc mọi thứ xung quanh có khắc nghiệt với chị thế nào. Bạn ấy cũng luôn nỗ lực để kéo gần lại khoảng cách 7.800km của hai đứa, cả hiện tại và trong tương lai. Vì bạn ấy thấy rằng bạn gái đã cố gắng cho mối quan hệ đầu tiên như thế, bản thân cũng không thể giảm bớt yêu thương được. \nNhắc nhở nhỏ: Nụ cười ban nãy của chị vẫn xinh để khiến em đổ như ngày mới crush. Cố gắng giữ nụ cười như thế đến ngày tụi mình gặp nhau nhé. Em sẽ không để tình mình là những nỗi buồn đâu. Thương chị ❤️',
-  text12: "Thăm bạn trai",
+  // text11:
+  // 'Hello, muốn làm cho chị một ít niềm vui những lúc tâm trạng chị không được tốt. Trước khi quen nhau đã từng thấy chị mạnh mẽ hơn những người con gái em từng biết, dẫu vậy em vẫn muốn được che chở cho bạn gái mình. Em biết chuỗi ngày vừa qua không phải là khoảng thời gian thảnh thơi của chị, trời đêm 8 độ ở Melbourne cũng có thể khiến chị thấy cô đơn hơn. Vì thế em ở đây để nhắc nhở chị rằng có một người luôn sẵn sàng ở cạnh chị những lúc mọi thứ xung quanh có khắc nghiệt với chị thế nào. Bạn ấy cũng luôn nỗ lực để kéo gần lại khoảng cách 7.800km của hai đứa, cả hiện tại và trong tương lai. Vì bạn ấy thấy rằng bạn gái đã cố gắng cho mối quan hệ đầu tiên như thế, bản thân cũng không thể giảm bớt yêu thương được. \nNhắc nhở nhỏ: Nụ cười ban nãy của chị vẫn xinh để khiến em đổ như ngày mới crush. Cố gắng giữ nụ cười như thế đến ngày tụi mình gặp nhau nhé. Em sẽ không để tình mình là những nỗi buồn đâu. Thương chị ❤️',
+  text11: "Hello bạn Nga, bạn Cún chắc đang bận bịu gì rồi, mình (Website Cún & Nga) tạm thời thay bạn Cún ở cạnh bạn. Lời nhắn này được bạn Cún chuyển đi lúc bạn ấy nghe rằng bạn muốn dừng lại. Những ngày qua mình có nghe rằng bạn ấy làm bạn tủi thân và phiền lòng nhiều chút. Thích nghi với cuộc sống mới ở Adelaide vốn đã không dễ, chịu đựng thêm những điều đó quả thực rất mệt mỏi, có nghĩ thêm trăm lần mình cũng không thể bênh vực bạn ấy. Bạn là một người tốt bụng, chân thành, tâm lý, tình cảm. Bạn ấy lại là cậu nhóc lần đầu gặp người con gái khiến bản thân thay đổi, luôn vụng về khi thể hiện với bạn, chỉ có trái tim thật lòng yêu thương. Bạn ấy hiểu bạn cũng đã buồn rất nhiều mới có thể đi đến quyết định dừng lại. Nếu sau này hai bạn không thể cùng bước chung con đường nữa, thì mình vẫn còn ở đây, vì bạn ấy đã hứa sẽ bảo vệ mình để thay mặt bạn ấy ở cạnh bạn mà. Được chứng kiến hành trình 10 tháng bên nhau của hai bạn quả thực rất vui, mình hi vọng con số đó sẽ không dừng lại. Đằng sau mình, bạn ấy vẫn luôn ở đó chờ bạn, vì dù chỉ còn một kết nối duy nhất, bạn ấy cũng sẽ quyết tâm giữ bạn ở lại.",
+  text12: "Ghé thăm bạn Cún",
 };
 
 $(document).ready(function () {
@@ -84,11 +84,11 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/main_pic_1.jpeg",
+      imageUrl: "img/main_pic_1.jpg",
       imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
-      confirmButtonText: "Continue",
+      confirmButtonText: "Tiếp tục",
       background: 'url("img/input-bg.jpeg")',
       imageAlt: "Custom image"
     }).then(function () {
