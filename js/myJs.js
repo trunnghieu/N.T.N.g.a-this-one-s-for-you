@@ -1,6 +1,10 @@
 // Import Firebase
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js';
-import { getDatabase, ref, set } from 'https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js';
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+import {
+  getDatabase,
+  ref,
+  set,
+} from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
 const firebaseConfig = {
   apiKey: "AIzaSyA5lD4snqKI4sWCEGtmbWoIUkJ_pdRx54g",
   authDomain: "icanbeyourdeer.firebaseapp.com",
@@ -9,7 +13,7 @@ const firebaseConfig = {
   storageBucket: "icanbeyourdeer.appspot.com",
   messagingSenderId: "282458903243",
   appId: "1:282458903243:web:e2c47500f438210fe4014e",
-  measurementId: "G-LMJZXNSMR5"
+  measurementId: "G-LMJZXNSMR5",
 };
 
 // Firebase
@@ -17,50 +21,66 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 function writePost(content, dateCreated) {
-  set(ref(db, 'posts/' + dateCreated), {
+  set(ref(db, "posts/" + dateCreated), {
     content: content,
     dateCreated: getTime(),
   });
 }
 
 function writeYesClickTime(dateTime) {
-  set(ref(db, 'yesClick/' + dateTime), {
-    dateTime: getTime()
+  set(ref(db, "yesClick/" + dateTime), {
+    dateTime: getTime(),
   });
 }
 
 function writeVisitTime(dateTime) {
-  set(ref(db, 'visits/' + dateTime), {
-    dateTime: getTime()
+  set(ref(db, "visits/" + dateTime), {
+    dateTime: getTime(),
   });
 }
 
 function getTime() {
-  var m = new Date();
-  return m.getUTCFullYear() + "/" +
-    ("0" + (m.getUTCMonth() + 1)).slice(-2) + "/" +
-    ("0" + m.getUTCDate()).slice(-2) + " " +
-    ("0" + m.getUTCHours()).slice(-2) + ":" +
-    ("0" + m.getUTCMinutes()).slice(-2) + ":" +
-    ("0" + m.getUTCSeconds()).slice(-2);
+  // Create a new Date object to get the current time
+  const date = new Date();
+
+  // Get the time zone offset in minutes
+  const timeZoneOffsetMinutes = date.getTimezoneOffset();
+
+  // Convert the offset to hours and calculate the sign
+  const offsetHours = Math.abs(Math.floor(timeZoneOffsetMinutes / 60));
+  const offsetSign = timeZoneOffsetMinutes > 0 ? "-" : "+";
+
+  // Format the date to the desired format with the UTC/GMT offset
+  const formattedDate = `${date.getFullYear()}/${String(
+    date.getMonth() + 1
+  ).padStart(2, "0")}/${String(date.getDate()).padStart(2, "0")} ${String(
+    date.getHours()
+  ).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}:${String(
+    date.getSeconds()
+  ).padStart(2, "0")} UTC${offsetSign}${String(offsetHours).padStart(
+    2,
+    "0"
+  )}:${String(Math.abs(timeZoneOffsetMinutes) % 60).padStart(2, "0")}`;
+  return formattedDate;
 }
 
 // Main
 const textConfig = {
-  text1: "Cả một đời, việc làm bạn Cún không hối tiếc là quen bạn.",
+  text1: "Cả một đời nhiều sai lầm, duy chỉ một điều luôn đúng là ở cạnh bạn.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Chào bạn Nga năm mới",
-  text4: "Mình chúc bạn Nga năm mới nhiều niềm vui, sức khoẻ, vạn sự như ý và một năm hạnh phúc cùng bạn Cún",
+  text3: "Một vài điều mình muốn nói",
+  text4: "Bạn có rảnh vào ngày 31/8-4/9 không?",
   text5: "Không",
   text6: "Có",
-  text7: "Gửi cho bạn ấy vài lời nhắn ở đây",
+  text7: "Gửi cho mình vài lời nhắn ở đây",
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   // text11:
   // 'Hello, muốn làm cho chị một ít niềm vui những lúc tâm trạng chị không được tốt. Trước khi quen nhau đã từng thấy chị mạnh mẽ hơn những người con gái em từng biết, dẫu vậy em vẫn muốn được che chở cho bạn gái mình. Em biết chuỗi ngày vừa qua không phải là khoảng thời gian thảnh thơi của chị, trời đêm 8 độ ở Melbourne cũng có thể khiến chị thấy cô đơn hơn. Vì thế em ở đây để nhắc nhở chị rằng có một người luôn sẵn sàng ở cạnh chị những lúc mọi thứ xung quanh có khắc nghiệt với chị thế nào. Bạn ấy cũng luôn nỗ lực để kéo gần lại khoảng cách 7.800km của hai đứa, cả hiện tại và trong tương lai. Vì bạn ấy thấy rằng bạn gái đã cố gắng cho mối quan hệ đầu tiên như thế, bản thân cũng không thể giảm bớt yêu thương được. \nNhắc nhở nhỏ: Nụ cười ban nãy của chị vẫn xinh để khiến em đổ như ngày mới crush. Cố gắng giữ nụ cười như thế đến ngày tụi mình gặp nhau nhé. Em sẽ không để tình mình là những nỗi buồn đâu. Thương chị ❤️',
-  text11: "Hello bạn Nga (thúi), bạn Cún chắc vẫn đang bận gì rồi. Mình là reminder, nhắc bạn Cún vẫn đang giữ của bạn Nga 1,314,520đ tiền lì xì cùng một tình iu to bự.",
-  text12: "Ghé thăm bạn Cún",
+  text11:
+    "Chào Nga, mình nghĩ chắc đây là nơi duy nhất bạn không tìm cách chặn liên lạc của mình. Chắc bây giờ bao nhiêu lời của mình nói ra đi nữa cũng không thể làm vơi đi nỗi buồn mình gây ra cho bạn, nên nếu bạn rảnh ngày 31/8-4/9, cho phép mình được rủ bạn đi Singapore. Thời điểm đó là nghỉ lễ của Việt Nam, mình vốn định dành cho gia đình hoặc làm bù những công việc mình còn nợ, nhưng mình cũng muốn thử bỏ hết tất cả sang một bên để cùng bạn đến một nơi khác. Nếu bạn cảm thấy được tình cảm mình dành cho bạn chưa từng vơi đi, xin bạn hãy cho me được liên lạc lại. Chúc bạn một ngày vui vẻ",
+  text12: "Ghé thăm mình",
 };
 
 $(document).ready(function () {
@@ -90,11 +110,11 @@ $(document).ready(function () {
       confirmButtonColor: "#fe8a71",
       confirmButtonText: "Tiếp tục",
       background: 'url("img/input-bg.jpeg")',
-      imageAlt: "Custom image"
+      imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(350);
       playSound();
-      writeVisitTime((new Date()).getTime());
+      writeVisitTime(new Date().getTime());
     });
   }
 
@@ -102,14 +122,17 @@ $(document).ready(function () {
     var audio = new Audio("sound/music.mp3");
     audio.volume = 0.4;
     audio.play();
-    if (typeof audio.loop == 'boolean') {
+    if (typeof audio.loop == "boolean") {
       audio.loop = true;
-    }
-    else {
-      audio.addEventListener('ended', function () {
-        this.currentTime = 0;
-        this.play();
-      }, false);
+    } else {
+      audio.addEventListener(
+        "ended",
+        function () {
+          this.currentTime = 0;
+          this.play();
+        },
+        false
+      );
     }
   }
 
@@ -180,7 +203,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text7,
       // html: true,
-      input: 'text',
+      input: "text",
       width: 900,
       padding: "2em",
       // html: "<input type='text' class='form-control' style='height:100px' id='txtReason'  placeholder=' '>",
@@ -200,22 +223,22 @@ $(document).ready(function () {
       customClass: "swal-image-yes",
     }).then((result) => {
       if (result.value) {
-        var time = (new Date()).getTime()
+        var time = new Date().getTime();
         // writeYesClickTime(time)
         if (result.value != null && result.value != "") {
-          writePost(result.value, time)
+          writePost(result.value, time);
         }
         Swal.fire({
-          width: '90%',
+          width: "90%",
           confirmButtonText: textConfig.text12,
-          background: '#F8F8F8',
+          background: "#F8F8F8",
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/hieeu1.7/";
+            window.location = "https://www.instagram.com/trunnghieu/";
           },
-        })
+        });
       }
     });
 
