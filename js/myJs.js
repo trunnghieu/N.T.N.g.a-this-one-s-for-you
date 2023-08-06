@@ -66,21 +66,21 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Cả một đời nhiều sai lầm, duy chỉ một điều luôn đúng là ở cạnh bạn.",
+  text1: "Cả một đời nhiều sai lầm, duy chỉ một điều luôn đúng là ở cạnh chị.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Một vài điều mình muốn nói",
-  text4: "Chào Nga, mình nghĩ chắc đây là nơi duy nhất bạn không tìm cách chặn liên lạc của mình. Chắc bây giờ bao nhiêu lời của mình nói ra đi nữa cũng không thể làm vơi đi nỗi buồn mình gây ra cho bạn, nên nếu bạn rảnh ngày 31/8-4/9, cho phép mình được rủ bạn đi Singapore. Thời điểm đó là nghỉ lễ của Việt Nam, mình vốn định dành cho gia đình hoặc làm bù những công việc mình còn nợ, nhưng mình cũng muốn thử bỏ hết tất cả sang một bên để cùng bạn đến một nơi khác. Nếu bạn cảm thấy được tình cảm mình dành cho bạn chưa từng vơi đi, xin bạn hãy cho me được liên lạc lại. Chúc bạn một ngày vui vẻ",
+  text3: "Chúc chị một ngày tốt lành",
+  text4: "",
   text5: "Không",
   text6: "Có",
-  text7: "Gửi cho mình vài lời nhắn ở đây",
+  text7: "Gửi cho em vài lời nhắn ở đây",
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   // text11:
   // 'Hello, muốn làm cho chị một ít niềm vui những lúc tâm trạng chị không được tốt. Trước khi quen nhau đã từng thấy chị mạnh mẽ hơn những người con gái em từng biết, dẫu vậy em vẫn muốn được che chở cho bạn gái mình. Em biết chuỗi ngày vừa qua không phải là khoảng thời gian thảnh thơi của chị, trời đêm 8 độ ở Melbourne cũng có thể khiến chị thấy cô đơn hơn. Vì thế em ở đây để nhắc nhở chị rằng có một người luôn sẵn sàng ở cạnh chị những lúc mọi thứ xung quanh có khắc nghiệt với chị thế nào. Bạn ấy cũng luôn nỗ lực để kéo gần lại khoảng cách 7.800km của hai đứa, cả hiện tại và trong tương lai. Vì bạn ấy thấy rằng bạn gái đã cố gắng cho mối quan hệ đầu tiên như thế, bản thân cũng không thể giảm bớt yêu thương được. \nNhắc nhở nhỏ: Nụ cười ban nãy của chị vẫn xinh để khiến em đổ như ngày mới crush. Cố gắng giữ nụ cười như thế đến ngày tụi mình gặp nhau nhé. Em sẽ không để tình mình là những nỗi buồn đâu. Thương chị ❤️',
   text11:
-    "Chuẩn bị của mình, là chuẩn bị cho chuyến đi Singapore sắp tới",
-  text12: "Ghé thăm mình",
+    "Cảm ơn chị vì đã ở cạnh em",
+  text12: "Ghé nhà bạn trai",
 };
 
 $(document).ready(function () {
