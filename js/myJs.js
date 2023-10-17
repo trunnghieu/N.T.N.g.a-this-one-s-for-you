@@ -66,18 +66,18 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Nếu ngày sau có gặp lại, em vẫn muốn được ở cạnh chị",
+  text1: "Dẫu nắng dẫu mưa, emm vẫn sẽ ở đây đợi chị",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Dear Rachael",
   text4: "Meeting you cracked my heart open, and now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
-  text5: "Không",
-  text6: "Có",
+  text5: "Chọn buồn",
+  text6: "Chọn vui",
   text7: "Gửi cho em vài lời nhắn ở đây",
   text8: "Gửi",
   text9: "Nothing",
   text10: "Đôi lời nhắn nhủ",
   text11:
-  "Hello, hôm nay là ngày đầu tiên từ lúc mình chia tay. Cảm ơn vì chị đã tới và giúp em trở nên tốt hơn, xin lỗi vì nhiều lúc đã khiến chị buồn lòng. Được ở cạnh chị là một điều may mắn trong cuộc đời em, nếu như được quay lại ngày 9/3/2022, em nhất định vẫn sẽ chọn quen chị.",
+  "Hello, hôm nay là ngày thứ 2 từ lúc mình chia tay. Em nằm mơ thấy chị nhắn tin, đùa rằng tụi mình vẫn sẽ tiếp tục. Sáng dậy em đã thấy thật nặng nề, em vẫn chưa tin được rằng ngày này đã đến. Em có nhắn tin nhờ Boo động viên chị, hi vọng mọi chuyện sẽ sớm ổn.",
   text12: "Ghé nhà em",
 };
 
