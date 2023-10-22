@@ -68,8 +68,8 @@ function getTime() {
 const textConfig = {
   text1: "Meeting you cracked my heart open, and now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Ngày thứ 5",
-  text4: "Àn nhon, tự dưng em thấy thông báo insta của một người quen thuộc hiện lên, em không muốn nàng ấy phải đợi lâu, nên đó là lí do em quyết định gọi. Giọng nàng ấy vẫn dễ thương như ngày nào, chắc tối nay em sẽ ngủ được tròn giấc rồi. Em thương nàng ấy nhiều lắm, chúc nàng ấy ngủ ngon.",
+  text3: "Ngày thứ 7",
+  text4: "Hello, vậy là đã tròn 1 tuần rồi ha, thời gian qua nhanh thật. Em thấy dù hiện tại hai đứa có không là người yêu đi nữa, thì việc được quan tâm hỏi han chị thật ra vẫn khiến em cảm thấy ổn hơn. Gần đây một người bạn của em cũng bảo em là người lý trí, nhưng từ khi quen chị thì lại thấy em tương tư nhiều hơn. Haiza, nghĩ lại chuyện khóc lóc với chị làm em có hơi xấu hổ, mà cũng không sao, nghĩ tích cực thì em thương chị thật lòng nên mới vậy ha. Nhưng lần đến em sẽ không mau nước mắt vậy nữa đâu, em thấy bản thân kiên cường hơn sau những khó khăn gần đây rồi. Chị ngủ ngoan nhé, thương chị nhiều.",
   text5: "Chọn buồn",
   text6: "Chọn vui",
   text7: "Gửi cho em vài lời nhắn ở đây",
