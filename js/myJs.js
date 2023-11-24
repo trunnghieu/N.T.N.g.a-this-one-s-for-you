@@ -69,7 +69,7 @@ const textConfig = {
   text1: "Meeting you cracked my heart open, and now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Đôi lời gửi Chồ",
-  text4: "Vì mọi chuyện cũng ổn hơn rồi nên me sẽ không đếm ngày nữa, nhưng me vẫn muốn giữ thói quen viết thư cho bạn. Hôm nay mới là ngày thứ 3 trong chuỗi 21 ngày sấp mặt của me. Tự dưng nhìn đống công việc bộn bề me cũng hơi nản, nhưng nghĩ đến chuyện đi Bali với bạn cũng giúp me có động lực nhiều hehe. Me sẽ cố gắng hoàn thiện năm 2023 cho thật tốt, thương bạn nhiều, chụt",
+  text4: "Em Cún nhớ chị Chồ muốn khùng luôn đó, mà kh dám nhắn, sợ mẹ Chồ đọc được, haiza. Chúc Chồ iu ngủ ngon, me phải ngồi ngắm hình Chồ cho đỡ nhớ đây. ༼☯﹏☯༽",
   text5: "Chọn buồn",
   text6: "Chọn vui",
   text7: "Gửi cho em vài lời nhắn ở đây",
