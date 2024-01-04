@@ -68,16 +68,16 @@ function getTime() {
 const textConfig = {
   text1: "Meeting you cracked my heart open, and now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
-  text3: "Đôi lời gửi Chồ",
-  text4: "Em Cún nhớ chị Chồ muốn khùng luôn đó, mà kh dám nhắn, sợ mẹ Chồ đọc được, haiza. Chúc Chồ iu ngủ ngon, me phải ngồi ngắm hình Chồ cho đỡ nhớ đây. ༼☯﹏☯༽",
-  text5: "Chọn buồn",
-  text6: "Chọn vui",
-  text7: "Gửi cho em vài lời nhắn ở đây",
-  text8: "Gửi",
+  text3: "Rachael, takes my energy ༼ つ ◕_◕ ༽つ",
+  text4: "I will always be the one to listen to your stories.",
+  text5: "Be sad",
+  text6: "Be happy",
+  text7: "I will still be here, no matter what happens",
+  text8: "Send",
   text9: "Nothing",
-  text10: "Đôi lời nhắn nhủ",
+  text10: "Just a little thing I wanna say",
   text11:
-  "Dẫu nắng dẫu mưa, em vẫn sẽ đứng ở đây đợi chị",
+  "Em vẫn còn thương chị nhiều đấy ngố ạ",
   text12: "Ghé nhà em",
 };
 
