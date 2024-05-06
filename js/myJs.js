@@ -69,7 +69,7 @@ const textConfig = {
   text1: "Meeting you cracked my heart open, and now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Rachael, takes my energy ༼ つ ◕_◕ ༽つ",
-  text4: "I will always be the one to listen to your stories.",
+  text4: "Thank you for everything.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
@@ -78,7 +78,7 @@ const textConfig = {
   text10: "Just a little thing I wanna say",
   text11:
   "Em vẫn còn thương chị nhiều đấy ngố ạ",
-  text12: "Ghé nhà em",
+  text12: "Ghé thăm em",
 };
 
 $(document).ready(function () {
