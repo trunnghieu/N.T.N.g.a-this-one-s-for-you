@@ -28,7 +28,7 @@
   /* height: 100vh; */
   z-index: 0;
   background-repeat: no-repeat;
-  background-image: url(../img/puuung-cute.gif);
+  background-image: url(../img/bg.webp);
   background-size: cover;
   background-position: 50%;
   /* -webkit-filter: blur(2px); */
@@ -64,6 +64,7 @@ header h2 {
   font-family: 'Pacifico';
   font-size: 50px;
   text-align: center;
+  color: azure;
   margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -71,6 +72,7 @@ header h2 {
 /* #text4 */
 header h4 {
   font-family: 'Pacifico';
+  color: azure;
   text-align: center;
 }
 
