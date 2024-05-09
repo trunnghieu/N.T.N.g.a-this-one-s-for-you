@@ -66,10 +66,10 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Meeting you cracked my heart open, and now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
+  text1: "Meeting you cracked my heart open, now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Rachael, takes my energy ༼ つ ◕_◕ ༽つ",
-  text4: "Thank you for everything.",
+  text4: "Hôm nay đi làm về mệt lắm không? Tối nay trời lạnh, nên là ăn uống đầy đủ rồi ngủ sớm nhé",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
@@ -77,8 +77,8 @@ const textConfig = {
   text9: "Nothing",
   text10: "Just a little thing I wanna say",
   text11:
-  "Em vẫn còn thương chị nhiều đấy ngố ạ",
-  text12: "Ghé thăm em",
+  "Em để chị đi không phải vì em hết thương chị.",
+  text12: "Thăm em",
 };
 
 $(document).ready(function () {
