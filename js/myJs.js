@@ -77,8 +77,8 @@ const textConfig = {
   text9: "Nothing",
   text10: "Just a little thing I wanna say",
   text11:
-  "Em để chị đi không phải vì em hết thương chị đây.",
-  text12: "Thăm em",
+  "I do these little things in hopes of bringing you back, because I believe we still have stories to tell.",
+  text12: "Come with me",
 };
 
 $(document).ready(function () {
