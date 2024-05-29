@@ -69,7 +69,7 @@ const textConfig = {
   text1: "Meeting you cracked my heart open, now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Rachael, takes my energy ༼ つ ◕_◕ ༽つ",
-  text4: "Em mới tập nghe nhạc Trung để có thể ít nhiều đồng điệu với chị. Em biết đây cũng không phải là việc chị cần ở em, chỉ là em muốn thử cua lại chị bằng những thứ lãng mạn tuy nhỏ nhặt nhưng được cái muộn màng này thôi à. Một tuần mới vui vẻ nhé.",
+  text4: "🍀",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
