@@ -77,7 +77,7 @@ const textConfig = {
   text9: "Nothing",
   text10: "Just a little thing I wanna say",
   text11:
-  "I do these little things in hopes of bringing you back, because I believe we still have stories to tell.",
+  "Do you believe that we still have stories to tell?",
   text12: "Come with me",
 };
 
