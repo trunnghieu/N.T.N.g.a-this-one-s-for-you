@@ -69,7 +69,7 @@ const textConfig = {
   text1: "Meeting you cracked my heart open, now it's forever changed. And because of that, I will carry a part of you with me wherever I go 🍀",
   // text2: "Helu Nga, anh có điều này muốn hỏi, cần Nga trả lời thật lòng",
   text3: "Rachael, takes my energy ༼ つ ◕_◕ ༽つ",
-  text4: "Nga ơi, nhiều lần em muốn nói là em nhớ chị, muốn níu kéo chị ở lại, nhưng em chẳng thể nghĩ được cách để hai đứa mình vượt qua được những khó khăn lúc yêu xa. Cảm ơn chị đã ở cạnh em, cũng xin lỗi chị vì đã là một tình đầu không hoàn hảo. Chúc chị thuận lợi trên chặng đường sắp đến, nếu có mệt mỏi vì gập ghềnh và lắm gió xô, đừng quên dừng lại nhìn về phía sau nhé. Giữ liên lạc với em, em thương chị nhiều, Nga của em.",
+  text4: "Nga ơi, nhiều lần em muốn nói là em nhớ chị, muốn níu kéo chị ở lại, nhưng em chẳng thể nghĩ được cách để hai đứa mình vượt qua những khó khăn lúc yêu xa. Cảm ơn chị đã ở cạnh em, cũng xin lỗi chị vì đã là một tình đầu không hoàn hảo. Chúc chị thuận lợi trên chặng đường sắp đến, nếu có mệt mỏi vì gập ghềnh và lắm gió xô, đừng quên dừng lại nhìn về phía sau nhé. Giữ liên lạc với em đó, em thương chị nhiều, Nga của em.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
