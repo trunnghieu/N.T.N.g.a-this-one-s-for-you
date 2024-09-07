@@ -68,7 +68,7 @@ function getTime() {
 const textConfig = {
   text1: "Meeting you cracked my heart open, now it's forever changed. And because of that, I will carry a part of you with me wherever I go 🍀",
   text3: "Rachael, takes my energy ༼ つ ◕_◕ ༽つ",
-  text4: "Em tin là nếu có duyên, mai này mình sẽ gặp lại. Em trả lại bình yên cho chị nhé 🍀",
+  text4: "The one person you think doesn't value you, is the one who can't stop missing you every day.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
