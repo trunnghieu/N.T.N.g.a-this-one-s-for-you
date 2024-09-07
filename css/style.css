@@ -64,7 +64,7 @@ header h2 {
   font-family: 'Pacifico';
   font-size: 50px;
   text-align: center;
-  color: azure;
+  color: black;
   margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -72,7 +72,7 @@ header h2 {
 /* #text4 */
 header h4 {
   font-family: 'Pacifico';
-  color: azure;
+  color: black;
   text-align: center;
 }
 
