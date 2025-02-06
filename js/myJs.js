@@ -66,9 +66,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Meeting you cracked my heart open, now it's forever changed. And because of that, I will carry a part of you with me wherever I go.",
+  text1: "Day 7 and still counting... How are you today?",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "I'm now just an experience to you, but how come you're still everything to me? Nevertheless, I guess I will sit here, reminiscing memories of us, until I can't do it anymore.",
+  text4: "I'm now just an experience to you, but how come you're still everything to me? Nevertheless, I guess I will sit here, reminiscing the memories of us, until I can't do it anymore.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
@@ -101,7 +101,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/main_pic.JPG",
+      imageUrl: "img/main_pic.jpg",
       imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
