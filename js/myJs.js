@@ -66,7 +66,7 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 7 and still counting... How are you today?",
+  text1: "Day 9 and still counting... How are you today?",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
   text4: "I'm now just an experience to you, but how come you're still everything to me? Nevertheless, I guess I will sit here, reminiscing the memories of us, until I can't do it anymore.",
   text5: "Be sad",
