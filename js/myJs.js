@@ -110,7 +110,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "../img/main-pic.jpg",
+      imageUrl: "/img/main-pic.jpg",
       imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
