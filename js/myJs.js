@@ -66,7 +66,7 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 10 and still counting... I miss you more than I can say",
+  text1: "Day 11, I miss you more than I can say",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
   text4: "I can't remember anything without you, but I'm living my life without you, and that hurts, really does.",
   text5: "Be sad",
