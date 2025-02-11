@@ -115,7 +115,7 @@ $(document).ready(function () {
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
       confirmButtonText: "Tiếp tục",
-      background: 'url("img/input-bg.jpeg")',
+      background: 'url("img/main_pic.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(350);
