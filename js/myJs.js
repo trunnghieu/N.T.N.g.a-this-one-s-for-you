@@ -4,6 +4,7 @@ import {
   getDatabase,
   ref,
   set,
+  update,
 } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
 const firebaseConfig = {
   apiKey: "AIzaSyA5lD4snqKI4sWCEGtmbWoIUkJ_pdRx54g",
@@ -20,6 +21,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
+var key = null;
+
 function writePost(content, dateCreated) {
   set(ref(db, "posts/" + dateCreated), {
     content: content,
@@ -33,9 +36,15 @@ function writeYesClickTime(dateTime) {
   });
 }
 
-function writeVisitTime(dateTime) {
-  set(ref(db, "visits/" + dateTime), {
-    dateTime: getTime(),
+function writeVisitTime() {
+  set(ref(db, "visits/" + key), {
+    enterAt: getTime(),
+  });
+}
+
+function writeExitTime() {
+  update(ref(db, "visits/" + key), {
+    leaveAt: getTime(),
   });
 }
 
@@ -111,7 +120,8 @@ $(document).ready(function () {
     }).then(function () {
       $(".content").show(350);
       playSound();
-      writeVisitTime(new Date().getTime());
+      key = new Date().getTime();
+      writeVisitTime();
     });
   }
 
@@ -248,4 +258,8 @@ $(document).ready(function () {
     //   });
     // });
   });
+});
+
+window.addEventListener("beforeunload", () => {
+  writeExitTime();
 });
