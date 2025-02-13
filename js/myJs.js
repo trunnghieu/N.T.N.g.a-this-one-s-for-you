@@ -75,7 +75,7 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 12, I miss you more than I can say",
+  text1: "Day 13, I miss you more than I can say",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
   text4: "Cái chị này, em ghét chị lắm, sao trong lúc em vẫn cố tìm cách để đến cạnh chị thì chị chỉ lẳng lặng nói với em rằng chị có bạn trai rồi, còn chẳng báo trước với em lời nào để em chuẩn bị tinh thần nữa, chị thừa biết em thương chị nhiều thế nào mà. Nhưng em cũng chỉ ghét chị được vài khoảnh khắc thôi à, em hiểu chị chịu đựng nhiều tổn thương thế nào rồi mới quyết định dứt áo như thế, nhận ra được điều đó làm em cảm thấy thật áy náy với chị. Em vẫn còn muốn bù đắp và chịu trách nhiệm vì những chuyện đã làm với chị nhiều lắm. Không dễ để em có thể tìm được một người tuyệt vời như chị đâu, nên em cứ cảm thấy day dứt vì chẳng níu được chị ở lại. Dù chẳng muốn, nhưng trong đầu em lại hay nghĩ về những khoảnh khắc chị ở cạnh người ta, trải qua những khoảnh khắc mà tụi mình đã từng cùng nhau. Chậc, sắp Valentine rồi đấy, em không biết có cản được suy nghĩ của mình không nữa. Em sẽ không quá suy đâu, nên nếu đọc được, mong chị cũng đừng thấy nặng lòng. Em vẫn sẽ ở đây thôi, cố gắng thay đổi bản thân tốt hơn để nếu vào một ngày đẹp trời nào đó chị ghé thăm, em đã vững vàng để được nắm tay chị. Ngày mà duyên mình chưa hết, biết đâu đứa nhóc ngốc nghếch thương chị như em lại lọt được vào mắt chị, chị ha. Em xin lỗi vì chưa làm tốt vai trò một người bạn trai, nhưng em vẫn còn thương chị nhiều lắm.",
   text5: "Be sad",
@@ -110,7 +110,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      // imageUrl: "/img/main-pic.jpg",
+      imageUrl: "img/main-pic.jpg",
       imageWidth: 220,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
