@@ -110,8 +110,8 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/main-pic.jpg",
-      imageWidth: 220,
+      imageUrl: "img/main-pic.jpeg",
+      imageWidth: 440,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
       confirmButtonText: "Tiếp tục",
