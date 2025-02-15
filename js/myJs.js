@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 14 ~ Valentine day",
+  text1: "Day 15 ~ Vẫn còn chút sang chấn Valentine ",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Cái chị này đá tui gần ngay đợt Valentine nha, để tui một mình suy nghĩ chuyện chị với anh chàng kia, tui sẽ không quên đâu Nga tệ (ᴗ_ᴗ。). Chị thuốc tui, làm tui mê muội, xong bỏ tui. Giờ chị đi rồi, mà sao tui cứ mãi ở đây thương chị hoài.",
+  text4: "Chẹp, tui đã chuẩn bị tinh thần cả rồi, mà rốt cuộc trong đầu vẫn tưởng tượng ra hình ảnh chị bên người ta (ᴗ_ᴗ。). Insta nó biết tui thất tình hay sao đó, toàn gợi ý reels về phim có cảnh mấy cặp đôi chia tay. Dù thật lòng muốn thấy chị hạnh phúc, tui vẫn chưa chấp nhận được chuyện trong cuộc sống của tui với chị không có người còn lại. Chị nói tui thời gian sẽ chữa lành được mọi thứ, tui biết chứ, nhưng tui đâu có muốn quên chị đâu. Mỗi ngày cái đầu quỷ của tui cũng tua lại hình ảnh của chị, nụ cười của chị, chắc suy giai đoạn cuối rồi, thời gian không chữa nổi bệnh nan y. Chị làm tui thương nhớ, xong chị để tui ở lại với thời gian vậy mà coi được. Sau này tui sẽ phốt chị cho cả thế giới biết là chị xinh xắn, dịu dàng, giỏi giang nhưng chị đem con bỏ chợ. Mà rồi tui cũng bỏ qua cho chị thôi à, tại chắc tui thương chị quá, đao đớn thiệt. Nhưng nếu để đổi lấy cơ hội được ở cạnh chị lần nữa, tui vẫn còn đao được ~.~",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
