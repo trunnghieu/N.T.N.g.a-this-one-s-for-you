@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 16 ~ Missing you",
+  text1: "Day 17 ~ Missing you, a bit more",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Dạo này tui ngủ cứ bị thức giấc ấy, khoảng độ 4h sáng, mỗi lần thức giấc tui sẽ lại nghĩ đến chị đầu tiên, chẹp. Lúc tỉnh táo ban ngày tui nghĩ về chuyện hiện tại của chị, lúc mơ màng buổi đêm tui lại nghĩ về kỉ niệm cũ của hai đứa. Chị có đang thật sự hạnh phúc không? Tui hay thắc mắc lắm. Ngày trước tui thấy chị còn hay đăng ảnh trồng cây trồng rau, giờ tui chẳng thấy chị đăng gì nữa, tui cũng lo nhưng lại chẳng thể nhắn cho chị được. Đừng tự làm bản thân mình buồn nhé. Hi vọng mọi thứ sẽ thuận lợi với chị.",
+  text4: "Chị bỏ tui rồi, giờ tới cái máy lạnh cũng bỏ tui nữa, chẹp, không biết tối nay sao mà ngủ đây. Tui vừa mua điện thoại mới, tui vốn chẳng định đổi điện thoại từ đầu đâu, ngày trước tui nghĩ là dịp gặp tiếp theo sẽ mua điện thoại mới đưa chị dùng, tui dùng tiếp cái của chị, nên tui cứ dùng tạm điện thoại cũ hoài đó chứ, mà giờ nó lag lắm rồi, ngậm ngùi đổi thôi. Giờ điện thoại tui nó hay đứng lắm, mà khổ nỗi toàn đứng mấy lúc đang gấp, tui mắc mệt quá nên tui đành xuống tiền. Tui vừa có một ngày dài, tui cũng nhớ chị nhiều lắm. Giờ chắc chị đang ngủ rồi, hi vọng chị sẽ ngon giấc mà không mơ bị người khác rượt. Tui cũng yên giấc đây, dù vui hay buồn thì tui mong sẽ được gặp chị trong giấc mơ.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
