@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 45~ A day like any other",
+  text1: "Day 49~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Nga thúi, kể cho nghe chuyện này. Công ty tui có một chị, đang yêu xa với bạn trai bên Hàn. Đêm hôm thứ 6 tuần rồi chị ấy đúng ra là sẽ bay sang Hàn, nhưng tầm chiều thì bị mất túi xách, mà trong túi có hộ chiếu với nhiều giấy tờ lắm. Chị ấy chắc cũng tìm đủ mọi cách, nhắn cả lên channel công ty để hỏi, thấy bảo ghé vào công an phường để kiếm, cũng chạy quanh đoạn đường đó mấy tiếng liên tục để tìm. Xong 11h tối hôm đó về thì có người gọi, bảo là nhặt được túi của chỉ rồi. Không mất giấy tờ gì cả, chỉ mất một chuyến sang Hàn thăm bạn trai. Chẹp, cặp nào yêu xa cũng nhiều trắc trở ha. Dù tui kh thân với chỉ, cũng kh biết rõ chuyện tình cảm của chỉ ra sao, nếu hai anh chị đó còn cố gắng thì tui sẽ cầu chúc cho họ đi được đến cùng với nhau. Tui cứ thấy ngưỡng mộ mấy cặp yêu xa được ghê, chắc tại đó là điều mà tui đã kh làm tốt. Tui thấy năng lượng của tui đang vơi dần rồi, hi vọng vẫn đủ lửa đến ngày thi IELTS, xong rồi dù đạt được kết quả hay không tui cũng sẽ tự thưởng bản thân được nghỉ ngơi vài hôm. Giờ tui ngủ đây, mai tui dậy nấu nui xào gà rồi mang đi làm. Chị ngủ ngon nhé.",
+  text4: "Nga ơi, me hơi đuối r, hôm nay me chưa làm đc gì nhiều, cũng kh có hứng, me để bản thân nghỉ ngơi lại một nhịp vậy. Hôm nay me thấy hơi cô đơn, cũng chẳng biết viết gì cho bạn, nên chắc để ngày mai thôi. Bạn ngủ ngon nhé.",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
