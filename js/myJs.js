@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 49~ A day like any other",
+  text1: "Day 50~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Nga ơi, me hơi đuối r, hôm nay me chưa làm đc gì nhiều, cũng kh có hứng, me để bản thân nghỉ ngơi lại một nhịp vậy. Hôm nay me thấy hơi cô đơn, cũng chẳng biết viết gì cho bạn, nên chắc để ngày mai thôi. Bạn ngủ ngon nhé.",
+  text4: "Nga ơi, thấm thoát đã 50 ngày từ lúc bạn bảo me bạn có người mới rồi, nhanh thật. Vài ngày gần đây me cũng kh thấy bạn đăng gì nữa, nên chắc me sẽ tạm khoá insta trong vòng 2 tuần. Hôm nay me làm đc 2 việc cũng quan trọng. Sáng me vừa đăng ký IELTS, 7/4 me thi, ngay đợt giỗ Tổ Hùng Vương luôn, còn hơn 2 tuần me hi vọng sẽ ôn kịp. Sáng nay dậy me thấy có vài vệt máu trên sàn, chỉ có thể là của thằng Cún, nên chiều me chở nó đi khám, đến thú y thì bác sĩ bảo nhiều khi nó ẻ ra máu thôi, chứ kh thấy vết thương ngoài da, chỉ cần cho nó uống nhiều nước hơn với dùng thêm men tiêu hoá. Me cũng đỡ lo vài phần, tại vốn cũng kh có tgian ở cạnh nó nhiều. Me vừa sổ giun với trị rận tai cho nó rồi, sang tuần me dẫn đi tiêm ngừa. Tinh thần me cũng ổn hơn đc chút rồi, chắc vì mai là cuối tuần nên me có nhiều tgian học hơn. Giờ me đi ngủ đây, mai có kết quả tiếng Đức me sẽ chia sẻ với bạn sau. Me đang chạy đua nhiều thứ, nhưng me cũng nhớ bạn lắm đấy, bạn ngủ ngon.",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
