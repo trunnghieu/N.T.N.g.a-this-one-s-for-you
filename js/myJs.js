@@ -75,7 +75,7 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 60~ A day like any other",
+  text1: "Day 61~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
   text4: "",
   // text4: "A Toàn chị Tú, Js, nợ",
