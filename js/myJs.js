@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 61~ A day like any other",
+  text1: "Day 63~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "",
+  text4: "Àn nhon, bạn đi làm về chưa dạ, nay là lần đầu tiên tui viết cho bạn vào buổi chiều đó. Hôm nay tui đăng ký nghỉ để đi cf ôn thêm IELTS, tính ra cũng hơi lưng chừng khi nghỉ thứ 5 rồi lại đi làm thứ 6, nhưng tui thấy off thứ 5 cảm giác thích hơn chút, vì thứ 6 thường công việc cũng nhẹ, cúp làm được. Tui lại khoá insta rồi, nhưng những ngày tui còn mở và mỗi lần bạn đăng story, tui rất muốn nhắn tin cho bạn, hỏi thăm bạn về một vài thứ và mối quan hệ của bạn thế nào rồi. Nhưng tui thấy như vậy cũng thật hồ đồ, tui kh muốn làm bạn khó xử chỉ vì tui muốn thử rằng liệu tụi mình còn cơ hội hay không. Vì nếu là tui đi, tui sẽ kh thích bạn gái của mình bị bạn trai cũ nhắn tin hỏi thăm. Tui tính kể chuyện này, xảy ra cũng lâu rồi, từ lúc mới hay tin bạn có bạn trai cơ. Lúc đó tui cũng chưa chấp nhận được, nên tui lục insta của bạn để tìm xem người mới của bạn là ai, tình cờ thấy có một account follow mỗi mình bạn à. Haha, lúc đó tui hơi mù quáng, thấy ngốc nghếch sao ấy, chứ bình thường tui hầu như kh stalk người ta vậy đâu, giờ nhắc lại có hơi xấu hổ với mất giá, nhưng chắc cũng kh sao vì bạn cũng kh đọc được. Giờ thì tui học cách chấp nhận hơn rồi, bạn trai mới của bạn là ai cũng kh còn quan trọng nữa, tui chỉ mong rằng bạn vẫn thật hạnh phúc. Thời gian cũng chữa lành một vài vết thương nhất định ha, nhưng nó vẫn chưa thể làm vơi đi tình cảm của tui, tui vẫn còn nhớ giọng nói và hình ảnh bạn cười với tui. Chẹp, chị Nga, em nhớ chị nhiều lắm, nhưng em chỉ muốn viết đến đây thôi, chị nghỉ ngơi đi nhé.",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
