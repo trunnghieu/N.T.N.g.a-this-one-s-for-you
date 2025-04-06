@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 65~ A day like any other",
+  text1: "Day 67~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Hôm qua tui trằn trọc cả tiếng mới ngủ được, xong tui mơ thấy tui đi thi IELTS trễ, rồi làm Writing bị lạc đề, chẹp. Sáng nay tui đi nhận hàng, họ yêu cầu căn cước tui mới biết hôm trước đi cf tui để quên căn cước ở bên quán, xong nãy hội đồng Anh nhắn tin bảo nếu không mang đúng loại giấy tờ tuỳ thân đã đăng ký thì sẽ kh được thi. Đúng tín hiệu vũ trụ luôn á Chồ, tối nay phải lật đật chạy sang cf lấy. Nay tui ôn sơ thêm miếng nữa r làm Writing thôi, tui cảm giác hơi yếu Writing xíu, kiểu cứ bị bí idea ấy. Tui quyết tâm nốt 2 ngày cuối r nghỉ ngơi đây. Tui nhớ Chồ nhiều. Chồ chúc tui may mắn đi.",
+  text4: "Nga ơi, tui dậy rồi nè, bên đây mới 5h kém à. Hôm qua làm thử đề Writing mà tui viết kh kịp cái gì luôn. Nhưng thôi chắc đến đâu thì đến, kh đc lần này thì cũng sẽ đc lần sau, tui đã tiến xa so với ban đầu rồi mà ha. Giờ tui ôn xíu Writing rồi đi thi đây, bạn chúc tui may mắn nhé~ Tui cần năng lượng của bạn đó~",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
