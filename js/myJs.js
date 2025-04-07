@@ -77,7 +77,7 @@ function getTime() {
 const textConfig = {
   text1: "Day 67~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Nga ơi, tui dậy rồi nè, bên đây mới 5h kém à. Hôm qua làm thử đề Writing mà tui viết kh kịp cái gì luôn. Nhưng thôi chắc đến đâu thì đến, kh đc lần này thì cũng sẽ đc lần sau, tui đã tiến xa so với ban đầu rồi mà ha. Giờ tui ôn xíu Writing rồi đi thi đây, bạn chúc tui may mắn nhé~ Tui cần năng lượng của bạn đó~",
+  text4: "Nga ơi, e thi xong rồi, sáng nay em thi trộm vía cũng ổn lắm, hi vọng sẽ đạt aim. Reading thì e làm dư hơn 5', cảm giác đúng nhiều, Listening thì tệ hơn chút, vì có một đoạn bị miss nên kh follow lại được, Writing thì viết vừa đủ à, Speaking thì ổn, vào nói như rap, nhưng có vài đoạn quên chia thì với cấu trúc câu cũng chưa đúng. Mà nhìn chung cũng nhẹ nhàng hơn nhiều rồi, h e nghỉ ngơi chút thôi, chắc e sẽ đi tập gym và đá banh lại để tránh toxic productivity. Ngta bảo tầm 2-5 ngày sẽ có kết quả, chẹp, thế là thanh thản đc hôm nay với mai là lại lo lắng tiếp r. Nhưng e thấy bản thân cũng đã làm tốt r, trust the process mà ha. Giờ này chắc Nga đã đi ngủ r, e cũng đi ngủ luôn đây, Nga ngủ ngon nhé~",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
