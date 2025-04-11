@@ -75,7 +75,7 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 67~ A day like any other",
+  text1: "Day 70~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
   text4: "Nga ngốc, e được 7.5 IELTS đấy, Reading 8.0, Listening 8.0, Writing 7.5, Speaking 6.0. Chẹp, cơ cấu điểm hơi ngược so với e nghĩ, vì e đoán là Speaking sẽ gánh Writing, ai dè. E thấy mình đã có thể làm tốt hơn ở khoản Speaking, nhưng thôi đạt aim rồi cũng phải biết vừa đủ ha. Đạt đc thành tựu e thấy cũng vui, vì h con đường đến Đức đã ngắn hơn đáng kể rồi. Dẫu vậy e cũng thấy có chút hụt hẫng, khi e dần cải thiện đc mọi thứ thì kh còn c ở cạnh e nữa. Hqua e định đặt vé đi Hàn để làm một chuyến nghỉ ngơi, cân bằng lại cuộc sống. Nhưng r e cũng thôi, e nghĩ biết đâu e lại còn cơ hội sang Úc thì sao, dù thời gian vẫn đang cạn dần. Nga thúi ơi, e nhớ c nhiều lắm.",
   // text4: "A Toàn chị Tú, Js, nợ",
