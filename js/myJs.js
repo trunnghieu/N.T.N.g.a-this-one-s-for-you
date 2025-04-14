@@ -77,7 +77,7 @@ function getTime() {
 const textConfig = {
   text1: "Day 72~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Nga ngốc, hôm qua e vừa đi mini tour Sài Gòn để cân bằng lại cuộc sống, e có bạn vào đây chơi nên tiện đi cùng nhau luôn, rủ đi metro với waterbus. Waterbus là kiểu từ quận này qua quận khác theo đường sông Sài Gòn, cũng kh có ấn tượng lắm vì sông Sài Gòn hơi dơ, kh biết ngày xưa có nhiều người đi kh chứ giờ thấy mỗi dân du lịch đi à. Metro thì e lại thấy xịn, hiện đại mà nhanh lắm, gần nửa Sài Gòn mà đi trong vòng 15' à. Lúc đi tự dưng e tưởng tượng cảnh dắt Nga theo kiểu này cho Nga biết Sài Gòn, chứ mấy lần để Nga quanh quẩn trong phòng cũng tội Nga. E dừng luôn quyết định đi Hàn rồi Nga ạ, chắc e sẽ về nhà thôi, dù kh có cơ hội sang Úc gặp Nga được, e vẫn muốn ghé những chỗ cũ e từng đi với Nga. Vụ du học thì giấy tờ các thứ e lo xong rồi, giờ chỉ viết thử động lực cho từng trường rồi ôn phỏng vấn à. Chẳng hiểu sao e vẫn còn nhớ Nga nhiều lắm, mà Nga chẳng đăng story nào để e mặt dày thử, chậc. E thấy hụt hẫng lắm Nga thúi ạ, vì e biết mình đã lỡ đánh mất một người tuyệt vời như vậy rồi. Thôi Nga ngủ đi nhé, Nga ngủ ngon, e cũng lịm theo đây~",
+  text4: "I've been missing you since the day you went away. Could you stay?",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
