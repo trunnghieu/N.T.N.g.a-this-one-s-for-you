@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 73~ A day like any other",
+  text1: "Day 77~ A day like any other",
   text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "I've been missing you since the day you went away. Could you stay?",
+  text4: "Nga à, em nghĩ đến thời điểm này thì em đã dần hiểu được những điều chị đã thất vọng ở em rồi. Dù rằng mọi thứ cũng đã muộn, em vẫn muốn một kết thúc đẹp hơn cho cả hai. Hình ảnh và cách chị cười vẫn còn trong đầu em, nhưng mùi của chị thì em kh còn nhớ đc nữa, có vẻ thời gian cũng dần làm phai những điều về chị rồi. Gần đây em có nói chuyện với sếp về việc em sắp đi du học, sếp cũng nice với em lắm. Khi nhờ ổng viết thư giới thiệu, ổng ghi là I say this from the bottom of my heart — please don't accept him. He is simply too valuable for us to lose. Dễ thương ha. Giờ em chỉ còn ôn bài để kiểm tra đầu vào theo yêu cầu của một vài trường thôi, còn giấy tờ đã lo liệu xong cả. Em cũng có nhiều thời gian rảnh hơn, em định đọc sách với tập gym lại. Sang tuần em về ĐN lại ghé khu nhà chị đấy, em định ngồi ở quán cf cũ từng đi với chị. Chậc, em vẫn còn chạnh lòng chị lắm đấy nhé. Em biết là em chưa hoàn hảo ở mọi mặt, nhưng em vẫn thương chị và vẫn đang cố gắng mà. Dẫu vậy em kh trách việc chị bỏ đi đâu, vì những tháng ngày đó cũng thật sự khó khăn và cô đơn với chị rồi. Giờ chị đang ở đâu và làm gì nhỉ? Liệu chị có đang hạnh phúc kh? Em tò mò lắm đấy, người thương ạ.",
   // text4: "A Toàn chị Tú, Js, nợ",
   text5: "Be sad",
   text6: "Be happy",
