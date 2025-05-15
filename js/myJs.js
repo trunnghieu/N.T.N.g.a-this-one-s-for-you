@@ -75,10 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Day 102~ I miss you more than I did yesterday",
-  text3: "༼ つ ◕◕ ༽つ🍀🍀🍀",
-  text4: "Nga ơi, em cảm thấy nỗi nhớ chị đã lên đến đỉnh điểm rồi đấy, em cứ thấy bí bức trong người. Em nghĩ rằng chi bằng em cứ sang Adelaide một vài ngày, cố gắng tìm gặp chị. Nếu vẫn còn cơ hội, em sẽ cố gắng thuyết phục chị. Còn nếu thấy chị đi với người khác, em cũng sẽ dễ dàng quên chị hơn, nhỉ, hoặc ít nhất em hi vọng là vậy. Em biết rằng chị đã từng nói kh thích việc em sang bất ngờ, vì chị sẽ kh chuẩn bị kịp. Nhưng em nghĩ, nếu chị còn gì đó với em, một hành động thực tế sẽ vẫn tốt hơn vạn lời nói suông. Còn nếu em đã chẳng là ai trong mắt chị, việc chị có kh thích em cũng chẳng quan trọng với chị nữa. Hôm nay ngồi coi vé máy bay, em chợt nhớ đến khoảnh khắc hai đứa ngồi ôm nhau khóc hu hu trước lúc chị lên máy bay sang Úc lại, dưng em cũng mít ướt. I know it's probably late, but I really hope you can stay.",
-  // text4: "A Toàn chị Tú, Js, nợ",
+  text1: "It was a good memory, indeed",
+  text3: "🍀",
+  text4: "I hope you're doing well",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
@@ -111,7 +110,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/main-pic.jpeg",
+      imageUrl: "img/input-bg.jpeg",
       imageWidth: 440,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
