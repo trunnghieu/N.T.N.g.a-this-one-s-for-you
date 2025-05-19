@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "It was a good memory, indeed",
+  text1: "530",
   text3: "🍀",
-  text4: "Nga khùng, kh còn gì để nói với tui gòy mắc gì ghé thăm tui. Mà có ghé thăm kh nhỉ, hay tui nhớ bạn đến mức hoang tưởng nên tui suy diễn tầm bậy. Nhiều khi tui khùng chứ kh phải bạn khùng nữa. Thui đã bước tiếp được rồi thì hãy cứ bước đi, đừng có nặng lòng hay trăn trở vì tui. Bạn hạnh phúc thì tui mới yên lòng mà nỗ lực được. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
+  text4: "Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
