@@ -77,7 +77,7 @@ function getTime() {
 const textConfig = {
   text1: "🍀",
   text3: "51020, something only we know",
-  text4: "Nay gặp anh cùng công ty tên tiếng Anh là Bao, chẹp. Chắc cũng tại tui tệ với bạn, nên bạn mới move on được, chứ bạn tốt với tui như vậy, tui suy cỡ này là đúng rồi. Tui đỡ buồn nhiều rầu, cũng tìm được vài thứ để tập trung lại, dẫu gần đây đêm nào cũng suy nghĩ về bạn. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
+  text4: "Nay gặp anh cùng công ty tên tiếng Anh là Bao, chẹp. Chắc cũng tại tui tệ với bạn, nên bạn mới move on được, chứ bạn tốt với tui như vậy, tui suy cỡ này âu cũng là điều hợp lý. Tui đỡ buồn nhiều rầu, cũng tìm được vài thứ để tập trung lại, dẫu gần đây đêm nào cũng suy nghĩ về bạn. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
