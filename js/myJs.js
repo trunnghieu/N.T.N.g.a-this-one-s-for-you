@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Tui sẽ tự phạt bản thân vì đã làm bạn buồn, nào được bạn tha thứ thì tui dừng",
-  text3: "51020, something only we know",
-  text4: "Chắc cũng tại tui tệ với bạn, nên bạn mới move on được, chứ bạn tốt với tui như vậy, tui suy cỡ này âu cũng là điều hợp lý. Dẫu gần đây đêm nào cũng suy nghĩ về bạn, nhưng tui đỡ buồn nhiều rồi, cũng tìm được vài thứ để tập trung lại. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
+  text1: "Tui mỗi khi nhớ về những lần bản thân làm bạn buồn",
+  text3: "53880",
+  text4: "Hôm qua tui tắm mưa đá banh hơn 2 tiếng rưỡi, phần vì muốn tập thể thao, phần vì cũng chẳng muốn về nhà sớm một mình, mất công lại nhớ bạn. Chuẩn bị chiếu phim Lilo & Stitch live action kìa, chẹp, chắc là sẽ đi xem phim với bạn trai nhỉ. Tự dưng nay tui thắc mắc kh biết mom bạn có biết bạn đang có bồ kh, nếu mà bạn kể với mom bạn thì tui cũng có chút chạnh lòng, haiza, chẳng biết nghĩ để làm gì nữa, vì cũng chẳng còn quan trọng. Tui đã thử tìm những điểm xấu của bạn để cố gắng bớt nặng lòng lại, nhưng rồi cũng chẳng tìm được điểm nào. Mà thật ra thì cũng có đấy, bạn hay silent treatment tui khi bạn giận lắm nhé, nhưng cũng chẳng thể trách bạn được, cũng tại não tui đơn bào, toàn khiến bạn bực mình rồi thất vọng thôi. Mấy ngày này tui hay buồn chán lắm, chẹp, kh cách mạng tư tưởng được như ngày trc nữa. Nhưng tui cũng kh ép mình, cứ go with the flow thôi, dù gì việc hết buồn cũng kh thể cứ ép buộc mà diễn ra được. Gần đây tui đọc một bài post, đại ý bảo là các bạn nữ kh nên quen với những bạn nam nhỏ tuổi hơn. Biết là mỗi người một quan điểm, nhưng khổ nỗi là đọc cũng thấy có lí chứ, mịa, nhìn lại thấy hồi quen bạn tui cũng trẻ con lắm. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
