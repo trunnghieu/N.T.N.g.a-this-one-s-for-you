@@ -76,8 +76,8 @@ function getTime() {
 // Main
 const textConfig = {
   text1: "Tui mỗi khi nhớ về những lần bản thân làm bạn buồn",
-  text3: "53880",
-  text4: "Hôm qua em nằm mơ thấy chị cuddle với bạn trai đấy. Mơ về chị thì chẳng mệt đâu, nhưng về chị và bạn trai thì lại khác. Em đã nghĩ là em có thể sẽ buồn nhiều, thực tế thì cũng có nhiều khoảng lặng đó, nhưng rồi hoá ra mọi chuyện lại nhẹ nhàng hơn. Em có động lực để làm xong hết việc tồn đọng ở công ty, rồi đi tập gym, thậm chí còn nhiều năng lượng hơn mọi hôm. Chắc là em đã làm cách mạng tư tưởng tốt hơn rồi. Em cứ nghĩ thế này, em nhớ chị là thật, còn thương chị cũng là thật, nhưng chị giờ đã có người người khác rồi, còn em thì vẫn có nhiều việc cần làm, không thể cứ thế mà buồn rầu được. Bạn nhỏ của chị ngày trước bây giờ cũng chững chạc hơn rồi, tất nhiên vẫn chưa thể làm được tất cả mọi thứ (như việc giữ tay chị), nhưng sẽ không bỏ cuộc đâu. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
+  text3: "3207778",
+  text4: "Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
