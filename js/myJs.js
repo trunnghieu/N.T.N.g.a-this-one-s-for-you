@@ -77,7 +77,7 @@ function getTime() {
 const textConfig = {
   text1: "Tui mỗi khi nhớ về những lần bản thân làm bạn buồn",
   text3: "3207778",
-  text4: "Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
+  text4: "We just move on? No, it was only you who could do such a thing. I'm happy for you, seriously, though it hasn't been easy for me. I used to dream of being a good husband to you, a strong man you could rely on. Right now, I can't be by your side, but if you ever need me, it doesn't matter where you are. Hmmmm, I don’t mean anything by this, but just in case things aren’t going well for you, I’m still around — just a message away. By then, I will be a better version of the one who once let you go.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
