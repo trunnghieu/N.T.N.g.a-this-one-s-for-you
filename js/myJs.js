@@ -77,7 +77,7 @@ function getTime() {
 const textConfig = {
   text1: "Tui mỗi khi nhớ về những lần bản thân làm bạn buồn",
   text3: "3207778",
-  text4: "Hey, I won’t be around for a while. I need to take some time for myself and do what I need to do. I still carry a part of you with me wherever I go. If you need me, you know where to find me. Miss you, darling.",
+  text4: "Hey, I won’t be around for a while. I need to take some time for myself and do what I need to do. I still carry a part of you with me wherever I go. If you need me, you know where to find me. Miss you, mein Augenstern.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
