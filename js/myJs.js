@@ -75,9 +75,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Tui mỗi khi nhớ về những lần bản thân làm bạn buồn",
+  text1: "Mòn mỏi",
   text3: "3207778",
-  text4: "Mình bây giờ sẽ kh còn xuất hiện trong cuộc sống hằng ngày của bạn đâu. Nhưng khi bạn cần, mình nghĩ bạn sẽ biết nơi mà bạn có thể tìm thấy mình đấy. Bình an và thuận lợi nhé, Nga ngốc~",
+  text4: "Bạn ngốc, đừng quên là mình vẫn đang đợi đấy. Dù mình bây giờ kh còn xuất hiện trong cuộc sống hằng ngày của bạn, nhưng khi bạn cần, mình nghĩ bạn sẽ biết nơi mà bạn có thể tìm thấy mình đấy. Bình an và thuận lợi nhé, Nga ngốc~",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
