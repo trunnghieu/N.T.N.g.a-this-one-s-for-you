@@ -77,7 +77,7 @@ function getTime() {
 const textConfig = {
   text1: "Mòn mỏi",
   text3: "3207778",
-  text4: "Bạn ngốc đừng quên là mình vẫn đang đợi đấy. Dù mình bây giờ kh còn xuất hiện trong cuộc sống hằng ngày của bạn nữa, nhưng khi bạn cần, mình nghĩ bạn sẽ biết nơi mà bạn có thể tìm thấy mình. Bình an và thuận lợi nhé, Nga ngốc~",
+  text4: "Này, lâu lâu mình hay nhìn ra cửa sổ rồi nhớ về kỉ niệm cũ, biết đâu trong lúc đó bạn đang tay trong tay với người mới, nghĩ cũng tủi thân. Mình hay chọc bạn ngốc chứ thật ra mình thấy mình mới là người khờ đấy, vì suy nó cũng vừa vừa. Mình đã từng nói, nếu giờ mình kh đợi bạn nữa, thì cũng tự mình là người đóng lại hết những cơ hội của hai đứa nhỉ. Mình cảm thấy ngày đó vốn kh gần, nhưng cũng có thể sẽ kh xa đến vậy. Nghĩ đến những việc tụi mình từng trải qua, như việc nấu cho bạn ăn hay gội đầu cho bạn, từ giờ đều có người khác làm thay mình rồi. Cũng buồn, nhưng cũng ổn thôi, vì chính những suy nghĩ đó lại giúp mình nhanh hết buồn hơn. Hừ, đồ Nga ngố, nàng sẽ kh hiểu đc tôi yêu nàng nhiều như thế nào đâu. Nếu đọc được, nàng cũng chỉ dành một vài phút lướt qua những bức thư tình mà tôi dành ra cả tiếng đồng hồ để chỉnh sửa từng chữ một. Nhưng tôi cũng cá là nàng chẳng còn nặng lòng gì chuyện đó nữa đâu phải không. Nếu nàng mãi kh trở lại, thì tôi cũng đành phải rời đi. Và nếu ngày đó thật sự đến, liệu nàng có buồn kh?",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
