@@ -39,6 +39,7 @@ function writeYesClickTime(dateTime) {
 function writeVisitTime() {
   set(ref(db, "visits/" + key), {
     enterAt: getTime(),
+    platform: navigator.platform,
   });
 }
 
@@ -84,8 +85,7 @@ const textConfig = {
   text8: "Send",
   text9: "Nothing",
   text10: "Just a little thing I wanna say",
-  text11:
-  "I do believe that we still have stories to tell",
+  text11: "I do believe that we still have stories to tell",
   text12: "Come with me",
 };
 
