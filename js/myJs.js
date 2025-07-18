@@ -78,7 +78,7 @@ function getTime() {
 const textConfig = {
   text1: "Us back in the old days",
   text3: "180",
-  text4: "Tui thương nàng, nay đã hơn 3 năm rưỡi rồi đấy",
+  text4: "妹妹想姐姐。",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
