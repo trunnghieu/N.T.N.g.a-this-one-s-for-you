@@ -78,7 +78,7 @@ function getTime() {
 const textConfig = {
   text1: "Us back in the old days",
   text3: "180",
-  text4: "I met you in my dream a couple of days ago. You were about to tell me something, but I woke up in the middle of the night before you had the chance to say anything. Still, I remembered your voice and your smile, the way you looked at me, it felt just like yesterday.",
+  text4: "I met you in my dream a couple of days ago. You were about to tell me something, but I woke up in the middle of the night before you had the chance to say anything. Still, I remembered your voice and your smile, the way you looked at me in my dream, it felt just like yesterday.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
