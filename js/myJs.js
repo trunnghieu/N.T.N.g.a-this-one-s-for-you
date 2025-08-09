@@ -78,7 +78,7 @@ function getTime() {
 const textConfig = {
   text1: "Us back in the old days",
   text3: "180",
-  text4: "I met you in my dream a couple of days ago. You were about to tell me something, but I woke up in the middle of the night before you had the chance to say anything. Still, I remembered your voice and your smile, the way you looked at me in my dream, it felt just like yesterday.",
+  text4: "I miss hanging out at the mall with you~",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
@@ -110,8 +110,8 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       // text: textConfig.text2,
-      imageUrl: "img/input-fg.jpg",
-      imageWidth: 440,
+      imageUrl: "img/input-fg.jpeg",
+      imageWidth: 300,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
       confirmButtonText: "Tiếp tục",
