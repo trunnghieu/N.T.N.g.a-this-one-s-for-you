@@ -76,9 +76,9 @@ function getTime() {
 
 // Main
 const textConfig = {
-  text1: "Us back in the old days",
-  text3: "180",
-  text4: "These words may mean nothing to you now, but to me, they mean something. Sometimes it's hope, sometimes it's regret. But what I know for sure is that, at the end of the day, I still miss you, even after all this time.",
+  text1: "",
+  text3: "",
+  text4: "",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
