@@ -74,10 +74,21 @@ function getTime() {
   return formattedDate;
 }
 
+function getDateCount() {
+  const startDate = new Date("2022-03-09"); 
+  const today = new Date();
+
+  const diffMs = today - startDate;
+
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  return diffDays.toString();
+}
+
 // Main
 const textConfig = {
   text1: "",
-  text3: "",
+  text3: getDateCount() + " days loving you",
   text4: "",
   text5: "Be sad",
   text6: "Be happy",
