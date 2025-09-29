@@ -89,7 +89,7 @@ function getDateCount() {
 const textConfig = {
   text1: "",
   text3: getDateCount() + " days loving you",
-  text4: "",
+  text4: "You know what? As soon as I see your new Facebook post, I know exactly that is the picture you once posted on Instagram, along with the caption that used to mean to me. Am I gonna be presumptuous and ridiculous if I think that it's meant for me again? Idk, but there are no taxes on dreams, right? Lol. Though it's just me being silly here at the end of the day, here I am, still. In case you don't mind after all this time, I'm just a message away. And no matter what happens, I will always wish the best for you. Take care, dear. Btw it's been 1300 days already. Time flies, aigoo~.",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
