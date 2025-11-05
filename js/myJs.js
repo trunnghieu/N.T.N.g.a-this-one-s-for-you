@@ -88,8 +88,8 @@ function getDateCount() {
 // Main
 const textConfig = {
   text1: "",
-  text3: getDateCount() + " days loving you",
-  text4: "Bạn vẫn hay ốm đau ha, còn điều gì làm bạn phiền muộn hả? Cho me gửi một vài lời chúc từ phương xa nhé, hi vọng bạn mạnh khoẻ.",
+  text3: getDateCount() + " days missing you",
+  text4: "",
   text5: "Be sad",
   text6: "Be happy",
   text7: "I will still be here, no matter what happens",
